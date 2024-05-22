@@ -1,0 +1,693 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/domin/Documents/Westcliff/AVR 604/AVR-604
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49512
+Successfully changed project path to: C:/Users/domin/Documents/Westcliff/AVR 604/AVR-604
+C:/Users/domin/Documents/Westcliff/AVR 604/AVR-604
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35196] Host "[IP] 192.168.0.128 [Port] 0 [Flags] 2 [Guid] 3721377483 [EditorId] 3721377483 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ANNLT1Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35196] Host "[IP] 192.168.0.128 [Port] 0 [Flags] 2 [Guid] 3721377483 [EditorId] 3721377483 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ANNLT1Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 837.15 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/domin/Documents/Westcliff/AVR 604/AVR-604/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017053 seconds.
+- Loaded All Assemblies, in  0.862 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2327 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.794 seconds
+Domain Reload Profiling: 3652ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (211ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (391ms)
+			TypeCache.Refresh (389ms)
+				TypeCache.ScanAssembly (373ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2794ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2487ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
+Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  7.669 seconds
+Refreshing native plugins compatible for Editor in 30.12 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.418 seconds
+Domain Reload Profiling: 9078ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (7338ms)
+		LoadAssemblies (7054ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (299ms)
+			ScanForSourceGeneratedMonoScriptInfo (44ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1152ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (795ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 34.12 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6595 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 125 unused Assets / (1.2 MB). Loaded Objects now: 7051.
+Memory consumption went from 215.1 MB to 213.9 MB.
+Total: 6.371800 ms (FindLiveObjects: 0.603500 ms CreateObjectMapping: 0.206400 ms MarkObjects: 4.705200 ms  DeleteObjects: 0.855100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: c3b8ba213efe735b4b5ada0ee074dcb3 -> 334067656e680e9b5660f835a3f93a07
+  custom:scripting/precompiled-assembly-types:DOTween: 41770a3e10244ae0a34e714162bbdba6 -> 495a70a01f033e7143e0fb188609f33a
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Singleton.cs: e499c92ecc22d4e621988e7de8662f52 -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UIContoller.cs: 98b69a040724da4907966b5030f7b089 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:DOTweenEditor: 1efdf497b099e4e6944f0dd7fb28c744 -> 8ff7c4647f1fb3c2213b89ab3222ea12
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
+Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.019 seconds
+Refreshing native plugins compatible for Editor in 33.22 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.226 seconds
+Domain Reload Profiling: 3233ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (656ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1105ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (789ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 40.43 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6481 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (1.3 MB). Loaded Objects now: 7055.
+Memory consumption went from 205.1 MB to 203.9 MB.
+Total: 7.181100 ms (FindLiveObjects: 0.736600 ms CreateObjectMapping: 0.298800 ms MarkObjects: 4.990100 ms  DeleteObjects: 1.154100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Singleton.cs: e499c92ecc22d4e621988e7de8662f52 -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UIContoller.cs: 98b69a040724da4907966b5030f7b089 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 731212.220195 seconds.
+  path: Assets/Models/uploads_files_745381_Microbe.FBX
+  artifactKey: Guid(e482d7a265b6cfc4c9acf2bac6e050b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/uploads_files_745381_Microbe.FBX using Guid(e482d7a265b6cfc4c9acf2bac6e050b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b02eb6f22699f7b8c5943cc09f7fbe') in 0.130417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 34.14 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (1.2 MB). Loaded Objects now: 7069.
+Memory consumption went from 103.8 MB to 102.6 MB.
+Total: 8.789500 ms (FindLiveObjects: 1.131900 ms CreateObjectMapping: 0.600900 ms MarkObjects: 6.209600 ms  DeleteObjects: 0.845100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Singleton.cs: e499c92ecc22d4e621988e7de8662f52 -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UIContoller.cs: 98b69a040724da4907966b5030f7b089 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 866.983408 seconds.
+  path: Assets/Scenes/ARFrameWork.scenetemplate
+  artifactKey: Guid(6f8b215b90bd3514789452651edb40f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ARFrameWork.scenetemplate using Guid(6f8b215b90bd3514789452651edb40f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a123dea6b09442fd445e443c6c60e21a') in 0.337573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 159
+========================================================================
+Received Import Request.
+  Time since last request: 6.668646 seconds.
+  path: Assets/Textures/back_button.png
+  artifactKey: Guid(d1653dacd2aa84c76880f318174a77c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/back_button.png using Guid(d1653dacd2aa84c76880f318174a77c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3519dbddef01dfe3f03fa6a0cda5adc9') in 0.062948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1001_m.png
+  artifactKey: Guid(61710e9a6b16e432cb25347bb8453b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1001_m.png using Guid(61710e9a6b16e432cb25347bb8453b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960a63d3e490c614f1dde995bca2129f') in 0.110570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1001_bc.png
+  artifactKey: Guid(11105031643464a7fbacc252c36d4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1001_bc.png using Guid(11105031643464a7fbacc252c36d4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d02262e62d2ef995ff339e17e094be') in 0.043231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Checkmark.png
+  artifactKey: Guid(31ac94829297e4296adb37fd85284ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Checkmark.png using Guid(31ac94829297e4296adb37fd85284ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106458328f0095607338bcad23b232ca') in 0.025575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_LEDGlass_N.png
+  artifactKey: Guid(8ac3c68831ebc6e4eb1e3a24f469f0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_LEDGlass_N.png using Guid(8ac3c68831ebc6e4eb1e3a24f469f0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4886e3d81e7232d9ccaa46fdafd18f') in 0.029039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ARF-Samples/Scenes/ObjectTracking/Printable Templates/CanWrapUnity.png
+  artifactKey: Guid(e1de24cfe11c44e79b972194969fd679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Scenes/ObjectTracking/Printable Templates/CanWrapUnity.png using Guid(e1de24cfe11c44e79b972194969fd679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7296a5fb931f6cd7716c467612d78be2') in 0.054121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1003_n.png
+  artifactKey: Guid(d05c16e3d426d40c2adb9375c8ca6a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1003_n.png using Guid(d05c16e3d426d40c2adb9375c8ca6a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5069d6c5a7b30e5d39b2e56add3c7d80') in 0.029179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_LED_MS.png
+  artifactKey: Guid(b23c69242368c0a4c9a3f9ce62ee7647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_LED_MS.png using Guid(b23c69242368c0a4c9a3f9ce62ee7647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a548fe3cff0441f2f97d1fa8af0d6fa0') in 0.010820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerButton_A.png
+  artifactKey: Guid(343b0724d9676d44aa1db7343edd1c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerButton_A.png using Guid(343b0724d9676d44aa1db7343edd1c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa5793da69c09f30859476e4f24983c') in 0.023421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1003_m.png
+  artifactKey: Guid(ae6842f0959154e04972ccbe29c92d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1003_m.png using Guid(ae6842f0959154e04972ccbe29c92d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f8c79aa7763ef4f7cceac9a0b991dd') in 0.024266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1002_m.png
+  artifactKey: Guid(a9499c002460c452db0f53b015d0603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1002_m.png using Guid(a9499c002460c452db0f53b015d0603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55d98b1cbaa1cee9973c3a8a1cd4785') in 0.046791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_Base_N.png
+  artifactKey: Guid(9a6bfeaa559009b4293d784ada43398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_Base_N.png using Guid(9a6bfeaa559009b4293d784ada43398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45bb8e5b6463c583d1b321a3da1d607') in 0.133598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_LEDGlass_AO.png
+  artifactKey: Guid(39cb381730637d64dbd5b78901ecaf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_LEDGlass_AO.png using Guid(39cb381730637d64dbd5b78901ecaf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ad941f148f80e7bd20178178dd2d6e') in 0.031894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_LEDGlass_A.png
+  artifactKey: Guid(bc202c2e7db18c3459267f777daca06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_LEDGlass_A.png using Guid(bc202c2e7db18c3459267f777daca06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a24182b54598384484d352766154e1') in 0.018744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1002_r.png
+  artifactKey: Guid(607fefe4fef0a4e7fa000f3ca6754edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1002_r.png using Guid(607fefe4fef0a4e7fa000f3ca6754edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18411af7db6978e6b114d3dc43f6fb28') in 0.040331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1002_ao.png
+  artifactKey: Guid(dc52bc377ea9448c7a837221b46faea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1002_ao.png using Guid(dc52bc377ea9448c7a837221b46faea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4333a5127d6be025a84575f3c4598f1e') in 0.047051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1003_ao.png
+  artifactKey: Guid(1463c32a832954a5f88735337d734e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Prefabs/robot/biped_robot_ace_1003_ao.png using Guid(1463c32a832954a5f88735337d734e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac03ff9b3d9502633e77cd0ceac091f9') in 0.028634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_Kettle_MS.png
+  artifactKey: Guid(952d98016504415499cdcd645288dab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_Kettle_MS.png using Guid(952d98016504415499cdcd645288dab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eef7d5088c3c11398b71e748ed7b509') in 0.078388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_Base_A.png
+  artifactKey: Guid(b9d7be9761f7dcd44b1ee0482b2d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_Base_A.png using Guid(b9d7be9761f7dcd44b1ee0482b2d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3507beaf0e64545fe298872d7eb9dab6') in 0.040513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.793156 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerButton_AO.png
+  artifactKey: Guid(eb1f876bd5257cf4aa7436cd6a3c54aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerButton_AO.png using Guid(eb1f876bd5257cf4aa7436cd6a3c54aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7ec5e5a49f4a8575bdb15c0e3c2ede') in 0.019077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerLight_E.png
+  artifactKey: Guid(b2dfcc0487842e04c83cdf7ec10584b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerLight_E.png using Guid(b2dfcc0487842e04c83cdf7ec10584b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b509f676023cb5b84a7d53334618eb89') in 0.018166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerButton_N.png
+  artifactKey: Guid(3d90e0ee95aa1aa42be3870f3ee66c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerButton_N.png using Guid(3d90e0ee95aa1aa42be3870f3ee66c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb0eb52d265053168d6ba5c40bda614') in 0.019609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerButton_MS.png
+  artifactKey: Guid(7045b4859ac905649bf633e238645730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/SampleObjects/CoffeeMaker/Textures/CoffeeMaker_PowerButton_MS.png using Guid(7045b4859ac905649bf633e238645730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf54e77f9d00cf20ecee956d16d85812') in 0.017515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.546993 seconds.
+  path: Assets/ARF-Samples/Scenes/ObjectTracking/Printable Templates/CubeTemplatePNG.png
+  artifactKey: Guid(213c56a61c00b47ff9bc9227b469f484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Scenes/ObjectTracking/Printable Templates/CubeTemplatePNG.png using Guid(213c56a61c00b47ff9bc9227b469f484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ef6b1b2d03ea1daafc06e07d80e4da') in 0.021275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ARFoundationDemos/Common/Textures/FeaturePoint.png
+  artifactKey: Guid(823a9751c6c2e5c49a35b3c3887373e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/Textures/FeaturePoint.png using Guid(823a9751c6c2e5c49a35b3c3887373e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545682b64766ffeb4a180590114c2761') in 0.019559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ARFoundationDemos/Common/Fonts/HindMadurai-Medium.ttf
+  artifactKey: Guid(aac2188db90a041c88f3c851c5407fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/Fonts/HindMadurai-Medium.ttf using Guid(aac2188db90a041c88f3c851c5407fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f53994620d4f66681c97c922406e858') in 0.041975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.001288 seconds.
+  path: Assets/Fonts/Inter-Regular.otf
+  artifactKey: Guid(a308f41f53b1747959493402f7708956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Inter-Regular.otf using Guid(a308f41f53b1747959493402f7708956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dca0fa8ebd8e779d29603d357964e4e') in 0.013759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47e2b4234ebfb2edda23895f9de0922') in 0.016934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025993 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6618e1b6516ada5a11439f738b92c7') in 0.017229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ARFoundationDemos/UX/Textures/icon_none.png
+  artifactKey: Guid(29fc805acb69f4d7b84b4b57f58676b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/UX/Textures/icon_none.png using Guid(29fc805acb69f4d7b84b4b57f58676b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8fa7a922a02d28e36511f4c92c4ad') in 0.020542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARFoundationDemos/UX/Textures/icon_motion.png
+  artifactKey: Guid(cb790425a497447e7aec4b22fd5db148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/UX/Textures/icon_motion.png using Guid(cb790425a497447e7aec4b22fd5db148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0640506a49471a921d8fe9852906b4') in 0.019507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARFoundationDemos/UX/Textures/icon_initrelocal.png
+  artifactKey: Guid(03f483cca61204f2c9ee897b5211414f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/UX/Textures/icon_initrelocal.png using Guid(03f483cca61204f2c9ee897b5211414f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a3bb256743261d22bc61118da35d84') in 0.024469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARFoundationDemos/UX/Textures/icon_light.png
+  artifactKey: Guid(31cdbd93de4774cb9a1a2ca00f34eb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/UX/Textures/icon_light.png using Guid(31cdbd93de4774cb9a1a2ca00f34eb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d86d964d529b8398b96716a1f5de05b') in 0.020987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARFoundationDemos/UX/Textures/icon_features.png
+  artifactKey: Guid(5b235561398da4dc6a7f9fea67bb700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/UX/Textures/icon_features.png using Guid(5b235561398da4dc6a7f9fea67bb700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fb44454393abbb9f011515415abd08') in 0.020553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.628378 seconds.
+  path: Assets/ARFoundationDemos/UX/Textures/icon_unsupported.png
+  artifactKey: Guid(4d8cf40a306c8483cb6d79cd26daf44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/UX/Textures/icon_unsupported.png using Guid(4d8cf40a306c8483cb6d79cd26daf44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6b026578040ec3d93628ed3d4d43ba') in 0.019732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fonts/Inter-Regular SDF.asset
+  artifactKey: Guid(39867e5449c844cbaa691f241ee9e41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Inter-Regular SDF.asset using Guid(39867e5449c844cbaa691f241ee9e41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51be931fcd72628553d83f815d1cdf7') in 0.031242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARF-Samples/Scenes/ImageTracking/Images/one.png
+  artifactKey: Guid(d1879707d69d24adfb421bde69c92c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Scenes/ImageTracking/Images/one.png using Guid(d1879707d69d24adfb421bde69c92c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9222be8850f30931f5c65f2a13bd9863') in 0.024985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARF-Samples/Scenes/ImageTracking/Images/QRCode.jpg
+  artifactKey: Guid(a6fd8503774c0402aa403884f5b77f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Scenes/ImageTracking/Images/QRCode.jpg using Guid(a6fd8503774c0402aa403884f5b77f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec9a0db760e3db11eaed57b9cdcf55e') in 0.022700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ARF-Samples/Scenes/ImageTracking/Images/Rafflesia.jpg
+  artifactKey: Guid(8185ee60df6f2a44e8c0cf22387f31aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Scenes/ImageTracking/Images/Rafflesia.jpg using Guid(8185ee60df6f2a44e8c0cf22387f31aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a81fa16ef5c3526fe414cf5d6dced5') in 0.031395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/sloth_all_1001_AlbedoTransparency.png
+  artifactKey: Guid(b0a9b07b207264316bf3be95cdcf6a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sloth_all_1001_AlbedoTransparency.png using Guid(b0a9b07b207264316bf3be95cdcf6a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2e77d8a344cbf50c4daeac7ddb3187') in 0.240317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARFoundationDemos/Shaders/Testing/Testbed/ReflectionProbe-0.exr
+  artifactKey: Guid(e9d5501eddf1f49ecba9203af0aac689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Shaders/Testing/Testbed/ReflectionProbe-0.exr using Guid(e9d5501eddf1f49ecba9203af0aac689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f6ca2b34151bb56c785b3bba586e76') in 0.037017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ARFoundationDemos/Common/Fonts/NotoSansCJKsc-Medium SDF.asset
+  artifactKey: Guid(64af28ea8713946898d211a2c9632b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Common/Fonts/NotoSansCJKsc-Medium SDF.asset using Guid(64af28ea8713946898d211a2c9632b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac24a0624ac39f5240fab6fdeb3393f7') in 0.082941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ARFoundationDemos/Shaders/Testing/Shaders Test Bed/ReflectionProbe-0.exr
+  artifactKey: Guid(f0467010e132fba4194f5565f2fe4233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Shaders/Testing/Shaders Test Bed/ReflectionProbe-0.exr using Guid(f0467010e132fba4194f5565f2fe4233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cc41fb4ee9062b90498f980472176f') in 0.032247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ARFoundationDemos/Shaders/Scenes/ShadersTestBed/ReflectionProbe-0.exr
+  artifactKey: Guid(57c3858f487b5483db24e8b583190ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARFoundationDemos/Shaders/Scenes/ShadersTestBed/ReflectionProbe-0.exr using Guid(57c3858f487b5483db24e8b583190ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baca2963d4c2f01f5d1daad2586e5ad') in 0.032206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fc87732957da9464f8ad2f018b9ca7') in 0.053048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/sloth_all_1001_MetallicSmoothness.png
+  artifactKey: Guid(433a9cacc6e034c25a6a14eb6af1b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sloth_all_1001_MetallicSmoothness.png using Guid(433a9cacc6e034c25a6a14eb6af1b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c894f9df2273f111323650094fc8c0') in 0.123744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

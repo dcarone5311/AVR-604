@@ -1,8 +1,10 @@
 {
   "dependencies": {
     "com.google.ar.core.arfoundation.extensions": "file:C:/Users/domin/Documents/Westcliff/AVR 604/arcore-unity-extensions-1.42.0.tgz",
+    "com.unity.addressables": "1.21.21",
     "com.unity.collab-proxy": "2.3.1",
     "com.unity.feature.development": "1.0.1",
+    "com.unity.localization": "1.5.2",
     "com.unity.mobile.android-logcat": "1.4.1",
     "com.unity.textmeshpro": "3.0.8",
     "com.unity.timeline": "1.7.6",

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6B0A21A0-8F2E-8CA1-7BA1-C288048FCEA2}</ProjectGuid>
+    <ProjectGuid>{A3031596-8305-2713-FD71-CE5C8A0CA0BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2022_3_27;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_27;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;DOTWEEN;RH_SerializedDictionary;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -60,62 +60,105 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.27f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ARF-Samples\Scenes\Camera\CameraGrain\CameraGrain.cs" />
+    <Compile Include="Assets\Scripts\StartupMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraFocus\CameraFocusController.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\FaceTracking\ToggleCameraFacingDirectionOnAction.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\DynamicLibrary.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\Meshing\Scripts\MeshClassificationFracking.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraWhiteBalance\DisplayCameraWhiteBalanceInformation.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Shaders\CameraGrain\Scripts\CameraGrainURP.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\PrefabImagePairManager.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\Camera\BackgroundRenderOrder\TranslateGeometry.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ThermalState\Scripts\FeaturesReporting.cs" />
+    <Compile Include="Assets\Meshing\Scripts\ClassificationPlacementManager.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\FaceTracking\DisplayFaceInfo.cs" />
+    <Compile Include="Assets\ARFoundationDemos\UX\Scripts\ARUXReasonsManager.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\ExifData\ExifDataLogger.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\CollaborativeSession.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\BackgroundRenderOrder\BackgroundRenderOrderController.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraExposure\CameraExposureController.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARCore\ARCoreSessionRecorder.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ThermalState\Scripts\ThermalStateForIOS.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\Colorizer.cs" />
+    <Compile Include="Assets\Scripts\UIController.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Shaders\Wireframe\Scripts\BarycentricDataBuilder.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Shaders\Fog\Scripts\ApplyFog.cs" />
+    <Compile Include="Assets\ARFoundationDemos\UX\Scripts\LocalizationManager.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\Camera\BackgroundRenderOrder\CurrentRenderModeText.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Common\Scripts\CenterScreenHelper.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\DynamicPrefab.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARKitCoachingOverlay\CustomSessionDelegate.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\PointClouds\SwitchPointCloudVisualizationMode.cs" />
+    <Compile Include="Assets\ARFoundationDemos\UX\Scripts\ARUXAnimationManager.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Common\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\DisplayTrackingState.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Common\Scripts\LightEstimation.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\Camera\LightEstimation\Rotator.cs" />
+    <Compile Include="Assets\ImageTracking\Scripts\NumberManager.cs" />
+    <Compile Include="Assets\Scripts\MyScript.cs" />
+    <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\ReorderableList\ReorderableList.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\CollaborationNetworkingIndicator.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\PokeStation\IncrementUIText.cs" />
+    <Compile Include="Assets\Scripts\InteractionController.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\Camera\CameraGrain\CameraGrain.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\DynamicLibrary.cs" />
+    <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\SerializableDictionaryBase.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraWhiteBalance\DisplayCameraWhiteBalanceInformation.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\Camera\BackgroundRenderOrder\TranslateGeometry.cs" />
+    <Compile Include="Assets\Meshing\Scripts\MeshClassificationManager.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ThermalState\Scripts\FeaturesReporting.cs" />
+    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\CollaborativeSession.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Shaders\Wireframe\Scripts\BarycentricMeshData.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Common\Scripts\ProbePlacement.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Meshing\Scripts\ProjectileLauncher.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\AnchorInfoManager.cs" />
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\ActionBasedControllerManager.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\PlaneDetection\PlaneClassificationLabeler.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ThermalState\Scripts\ThermalStateForIOS.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\Colorizer.cs" />
+    <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\DrawKeyAsPropertyAttribute.cs" />
+    <Compile Include="Assets\Scripts\MainMode.cs" />
     <Compile Include="Assets\Scripts\PlaceObjectOnPlane.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraFocus\DisplayCameraFocusInformation.cs" />
+    <Compile Include="Assets\Meshing\Scripts\MeshClassificationFracking.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\LightEstimation\FacingDirectionManager.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\Camera\BackgroundRenderOrder\CurrentRenderModeText.cs" />
+    <Compile Include="Assets\ARFoundationDemos\UX\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\IDAttribute.cs" />
+    <Compile Include="Assets\ARFoundationDemos\UX\Scripts\ARKitCoachingOverlay.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\HighResolutionCpuImage\HighResolutionCpuImageSample.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ThermalState\Scripts\ThermalStateHandling.cs" />
+    <Compile Include="Assets\ImageTracking\Scripts\ImageTrackingObjectManager.cs" />
+    <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\Example\NestedDB.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraWhiteBalance\CameraWhiteBalanceController.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Meshing\Scripts\ToggleMeshClassification.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\DynamicPrefab.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARKitCoachingOverlay\CustomSessionDelegate.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\PointClouds\SwitchPointCloudVisualizationMode.cs" />
+    <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\References\RequiredReferences.cs" />
+    <Compile Include="Assets\ImageTracking\Scripts\DistanceManager.cs" />
+    <Compile Include="Assets\Scripts\ScanMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraExposure\DisplayCameraExposureInformation.cs" />
+    <Compile Include="Assets\ARFoundationDemos\UX\Scripts\DisableTrackedVisuals.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Common\Scripts\FadePlaneOnBoundaryChange.cs" />
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\DynamicMoveProvider.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\PointClouds\ARAllPointCloudPointsParticleVisualizer.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\DisplayTrackingState.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Shaders\CameraGrain\Scripts\CameraGrainMultiMaterial.cs" />
+    <Compile Include="Assets\Scripts\AnimatedPrompt.cs" />
     <Compile Include="Assets\Scripts\ScreenLog.cs" />
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\XRPokeFollowAffordance.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARKitCoachingOverlay\ARKitCoachingOverlay.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\BasicImageTracking\TrackedImageInfoManager.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\Camera\LightEstimation\Rotator.cs" />
+    <Compile Include="Assets\Scripts\NonARMode.cs" />
+    <Compile Include="Assets\Meshing\Scripts\KeyUIHandler.cs" />
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\GazeInputManager.cs" />
-    <Compile Include="Assets\Scripts\MyScript.cs" />
-    <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\CollaborationNetworkingIndicator.cs" />
-    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\PokeStation\IncrementUIText.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Common\Scripts\PlacementReticle.cs" />
+    <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\Example\DataBaseExample.cs" />
+    <Compile Include="Assets\ARFoundationDemos\UX\Scripts\PlaceObjectsOnPlane.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARF-Samples\Shaders\HumanStencil.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\ARFoundationDemos\Shaders\Fog\Shaders\ARKitFogBackground.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\ARFoundationDemos\Shaders\Shadows\ShaderGraphs\BlurredShadowPlaneLighting.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\ARFoundationDemos\Common\Shaders\FeatheredPlaneShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\ARF-Samples\Scenes\Meshing\Shaders\MeshingOverlay.shader" />
     <None Include="Assets\ARF-Samples\Scenes\ObjectTracking\Printable Templates\README.txt" />
+    <None Include="Assets\ARFoundationDemos\Shaders\Shadows\ShaderGraphs\PlaneContactShadows.hlsl" />
     <None Include="Assets\ARF-Samples\Scenes\PlaneDetection\PlaneMasking\PlaneOcclusionShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\ARF-Samples\Shaders\FeatheredPlaneShader.shader" />
@@ -125,10 +168,12 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\ARFoundationDemos\Common\Shaders\MobileARShadow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\ARF-Samples\Shaders\DepthGradient.shader" />
     <None Include="Assets\ARF-Samples\Shaders\NormalOverlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\ARFoundationDemos\Shaders\Shadows\ShaderGraphs\CustomShadow.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\ARF-Samples\Shaders\Normal.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -465,6 +510,14 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -979,6 +1032,18 @@
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Localization.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Localization.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Google.XR.ARCoreExtensions.Editor">
       <HintPath>Library\ScriptAssemblies\Google.XR.ARCoreExtensions.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1127,6 +1192,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Localization">
+      <HintPath>Library\ScriptAssemblies\Unity.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
       <Private>False</Private>
@@ -1183,6 +1252,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1223,22 +1296,38 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Google.XR.ARCoreExtensions">
       <HintPath>Library\ScriptAssemblies\Google.XR.ARCoreExtensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{85CC399E-2198-0286-69DA-71E3D89B482C}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="RotaryHeart.csproj">
+      <Project>{05492B20-1E26-A364-69A6-BDFD5554B7A6}</Project>
+      <Name>RotaryHeart</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Samples.VisualScripting.csproj">
-      <Project>{4D8B6CB7-77DE-B019-37F5-2FE0B6653B8B}</Project>
+      <Project>{75B32ED8-D6AE-B2A1-A65D-89A6EC0F075E}</Project>
       <Name>Unity.XR.ARFoundation.Samples.VisualScripting</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Samples.csproj">
-      <Project>{3BA28D50-3C71-A0F2-5E40-3B460CCA2842}</Project>
+      <Project>{B4E882EF-6E76-202A-2BFD-A6188EFF6E87}</Project>
       <Name>Unity.XR.ARFoundation.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Samples.Editor.csproj">
-      <Project>{66423024-65B6-292D-77C2-324E1F2E44CB}</Project>
+      <Project>{0083C1E3-E044-0097-E8DC-CAC33C085E9D}</Project>
       <Name>Unity.XR.ARFoundation.Samples.Editor</Name>
     </ProjectReference>
   </ItemGroup>

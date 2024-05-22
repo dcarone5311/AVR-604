@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "R3CRC041L7V",
         "name": "Westcliff.AVR604",
-        "processId": 16915,
+        "processId": 30322,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -42,6 +42,24 @@
             "deviceId": "R3CRC041L7V",
             "name": "Westcliff.AVR604",
             "processId": 16915,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 31133,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 29214,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 30322,
             "exited": false
         }
     ],

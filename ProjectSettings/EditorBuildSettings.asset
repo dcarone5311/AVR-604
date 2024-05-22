@@ -8,12 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ARF-Samples/Scenes/SimpleAR/SimpleAR.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BasicARScene.unity
     guid: 62d7a2c3b54f89548a750614a3cd06f5
+  - enabled: 1
+    path: Assets/Scenes/ARFrameWork.unity
+    guid: c40383efcc947df41b715e7aafd7b09a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8d44dadcbbc790943869e985b16a0657, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: cc2a7cdf174f3594680b0d3e983cb067, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: a0036b9cd85198442908bd94a8cbf1d8, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 17322c305d1bdf648a538825f20cc1fa, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a92a152bdf3fa3439af8d8f232555b8, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: cc9cc0b8973e8c04b85a68bcbfebd6a1, type: 2}
