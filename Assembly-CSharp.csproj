@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\StartupMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraFocus\CameraFocusController.cs" />
+    <Compile Include="Assets\Scripts\ShowTrackablesOnEnable.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\FaceTracking\ToggleCameraFacingDirectionOnAction.cs" />
     <Compile Include="Assets\ARFoundationDemos\Shaders\CameraGrain\Scripts\CameraGrainURP.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\PrefabImagePairManager.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\Meshing\Scripts\MeshClassificationManager.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ThermalState\Scripts\FeaturesReporting.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\CollaborativeSession.cs" />
+    <Compile Include="Assets\Scripts\CheckPlaneDetectionSupport.cs" />
     <Compile Include="Assets\ARFoundationDemos\Common\Scripts\ProbePlacement.cs" />
     <Compile Include="Assets\ARFoundationDemos\Shaders\Wireframe\Scripts\BarycentricMeshData.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Meshing\Scripts\ProjectileLauncher.cs" />
@@ -116,6 +118,7 @@
     <Compile Include="Assets\Meshing\Scripts\MeshClassificationFracking.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\LightEstimation\FacingDirectionManager.cs" />
     <Compile Include="Assets\ARFoundationDemos\UX\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\PlaceObjectMode.cs" />
     <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\IDAttribute.cs" />
     <Compile Include="Assets\ARFoundationDemos\UX\Scripts\ARKitCoachingOverlay.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\HighResolutionCpuImage\HighResolutionCpuImageSample.cs" />
