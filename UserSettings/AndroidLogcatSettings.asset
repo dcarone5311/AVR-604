@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "R3CRC041L7V",
         "name": "Westcliff.AVR604",
-        "processId": 21608,
+        "processId": 11382,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -84,6 +84,84 @@
             "deviceId": "R3CRC041L7V",
             "name": "Westcliff.AVR604",
             "processId": 21608,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 11316,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 27518,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 29951,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 3336,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 4314,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 5565,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 14658,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 19933,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 20482,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 4055,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 8517,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 9014,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 11382,
             "exited": false
         }
     ],

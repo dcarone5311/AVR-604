@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\ShowTrackablesOnEnable.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\FaceTracking\ToggleCameraFacingDirectionOnAction.cs" />
     <Compile Include="Assets\ARFoundationDemos\Shaders\CameraGrain\Scripts\CameraGrainURP.cs" />
+    <Compile Include="Assets\Scripts\AddPictureMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\PrefabImagePairManager.cs" />
     <Compile Include="Assets\Meshing\Scripts\ClassificationPlacementManager.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\FaceTracking\DisplayFaceInfo.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\LightEstimation\Rotator.cs" />
     <Compile Include="Assets\ImageTracking\Scripts\NumberManager.cs" />
     <Compile Include="Assets\Scripts\MyScript.cs" />
+    <Compile Include="Assets\Scripts\SelectImageMode.cs" />
     <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\ReorderableList\ReorderableList.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\CollaborationNetworkingIndicator.cs" />
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\PokeStation\IncrementUIText.cs" />
@@ -107,6 +109,7 @@
     <Compile Include="Assets\Scripts\CheckPlaneDetectionSupport.cs" />
     <Compile Include="Assets\ARFoundationDemos\Common\Scripts\ProbePlacement.cs" />
     <Compile Include="Assets\ARFoundationDemos\Shaders\Wireframe\Scripts\BarycentricMeshData.cs" />
+    <Compile Include="Assets\Scripts\FramedPhoto.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Meshing\Scripts\ProjectileLauncher.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\AnchorInfoManager.cs" />
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\ActionBasedControllerManager.cs" />
@@ -116,6 +119,7 @@
     <Compile Include="Assets\Scripts\PlaceObjectOnPlane.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraFocus\DisplayCameraFocusInformation.cs" />
     <Compile Include="Assets\Meshing\Scripts\MeshClassificationFracking.cs" />
+    <Compile Include="Assets\Scripts\ImageButtons.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\LightEstimation\FacingDirectionManager.cs" />
     <Compile Include="Assets\ARFoundationDemos\UX\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\PlaceObjectMode.cs" />
@@ -147,6 +151,7 @@
     <Compile Include="Assets\ARFoundationDemos\Common\Scripts\PlacementReticle.cs" />
     <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\Example\DataBaseExample.cs" />
     <Compile Include="Assets\ARFoundationDemos\UX\Scripts\PlaceObjectsOnPlane.cs" />
+    <Compile Include="Assets\Scripts\ImagesData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARF-Samples\Shaders\HumanStencil.shader" />
