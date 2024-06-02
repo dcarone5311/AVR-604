@@ -83,6 +83,7 @@
     <Compile Include="Assets\ARFoundationDemos\UX\Scripts\LocalizationManager.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\BackgroundRenderOrder\CurrentRenderModeText.cs" />
     <Compile Include="Assets\ARFoundationDemos\Common\Scripts\CenterScreenHelper.cs" />
+    <Compile Include="Assets\Scripts\GalleryMainMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\DynamicPrefab.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARKitCoachingOverlay\CustomSessionDelegate.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\PointClouds\SwitchPointCloudVisualizationMode.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets\ARFoundationDemos\Common\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\DisplayTrackingState.cs" />
     <Compile Include="Assets\ARFoundationDemos\Common\Scripts\LightEstimation.cs" />
+    <Compile Include="Assets\Scripts\ResizePicture.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\LightEstimation\Rotator.cs" />
     <Compile Include="Assets\ImageTracking\Scripts\NumberManager.cs" />
     <Compile Include="Assets\Scripts\MyScript.cs" />
@@ -99,6 +101,7 @@
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\PokeStation\IncrementUIText.cs" />
     <Compile Include="Assets\Scripts\InteractionController.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\CameraGrain\CameraGrain.cs" />
+    <Compile Include="Assets\Scripts\MovePicture.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\DynamicLibrary.cs" />
     <Compile Include="Assets\Rotary Heart\SerializableDictionaryLite\SerializableDictionaryBase.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraWhiteBalance\DisplayCameraWhiteBalanceInformation.cs" />
@@ -143,6 +146,7 @@
     <Compile Include="Assets\Scripts\AnimatedPrompt.cs" />
     <Compile Include="Assets\Scripts\ScreenLog.cs" />
     <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\XRPokeFollowAffordance.cs" />
+    <Compile Include="Assets\Scripts\EditPictureMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARKitCoachingOverlay\ARKitCoachingOverlay.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\BasicImageTracking\TrackedImageInfoManager.cs" />
     <Compile Include="Assets\Scripts\NonARMode.cs" />

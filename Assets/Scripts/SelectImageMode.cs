@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class SelectImageMode : MonoBehaviour
 {
+
+    [SerializeField] AddPictureMode addPicture;
+    [SerializeField] EditPictureMode editPicture;
+    public bool isReplacing = false;
     private void OnEnable()
     {
         {
@@ -11,4 +15,17 @@ public class SelectImageMode : MonoBehaviour
         }
     }
 
+    public void ImageSelected (ImageInfo image)
+    {
+        if (isReplacing)
+        {
+            editPicture.currentPicture.SetImage(image);
+            InteractionController.EnableMode("Edit{icture");
+        }
+        else
+        {
+            addPicture.imageInfo = image;
+            InteractionController.EnableMode("AddPicture");
+        }
+    }
 }

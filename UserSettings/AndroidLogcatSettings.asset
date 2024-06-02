@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "R3CRC041L7V",
         "name": "Westcliff.AVR604",
-        "processId": 11382,
+        "processId": 30764,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -162,6 +162,66 @@
             "deviceId": "R3CRC041L7V",
             "name": "Westcliff.AVR604",
             "processId": 11382,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 8678,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 8188,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 11150,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 11762,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 19324,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 22998,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 25652,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 27084,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 27615,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CRC041L7V",
+            "name": "Westcliff.AVR604",
+            "processId": 30764,
             "exited": false
         }
     ],

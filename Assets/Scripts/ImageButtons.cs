@@ -9,6 +9,7 @@ public class ImageButtons : MonoBehaviour
     [SerializeField] GameObject imageButtonPrefab;
     [SerializeField] ImagesData imagesData;
     [SerializeField] AddPictureMode addPicture;
+    [SerializeField] SelectImageMode selectImage;
 
     private void Start()
     {
@@ -29,7 +30,6 @@ public class ImageButtons : MonoBehaviour
 
     private void OnClick(ImageInfo image)
     {
-        addPicture.imageInfo = image;
-        InteractionController.EnableMode("AddPicture");
+        selectImage.ImageSelected(image);
     }
 }

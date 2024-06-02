@@ -15,7 +15,7 @@ C:/Users/domin/Documents/Westcliff/AVR 604/AVR-604
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55830
+53663
 Successfully changed project path to: C:/Users/domin/Documents/Westcliff/AVR 604/AVR-604
 C:/Users/domin/Documents/Westcliff/AVR 604/AVR-604
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/domin/Documents/Westcliff/AVR 604/AVR-604
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15248] Host "[IP] 192.168.0.128 [Port] 0 [Flags] 2 [Guid] 1183763297 [EditorId] 1183763297 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ANNLT1Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [37920] Host "[IP] 192.168.0.128 [Port] 0 [Flags] 2 [Guid] 3258441831 [EditorId] 3258441831 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ANNLT1Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15248] Host "[IP] 192.168.0.128 [Port] 0 [Flags] 2 [Guid] 1183763297 [EditorId] 1183763297 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ANNLT1Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37920] Host "[IP] 192.168.0.128 [Port] 0 [Flags] 2 [Guid] 3258441831 [EditorId] 3258441831 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ANNLT1Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 42.07 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 61.53 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.27f1 (73effa14754f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,56 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011393 seconds.
-- Loaded All Assemblies, in  0.445 seconds
+Registered in 0.017800 seconds.
+- Loaded All Assemblies, in  0.553 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 305 ms
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x00060] in <36229cb14f41449da8c9699f7090a8e2>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <36229cb14f41449da8c9699f7090a8e2>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <36229cb14f41449da8c9699f7090a8e2>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0026a] in <36229cb14f41449da8c9699f7090a8e2>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <36229cb14f41449da8c9699f7090a8e2>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <36229cb14f41449da8c9699f7090a8e2>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000ad] in <36229cb14f41449da8c9699f7090a8e2>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <e79fb6b8b9ab474b8f0398fed96fa2af>:0 
+
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.767 seconds
-Domain Reload Profiling: 1211ms
-	BeginReloadAssembly (129ms)
+- Finished resetting the current domain, in  2.811 seconds
+Domain Reload Profiling: 3361ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (126ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (154ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (181ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (768ms)
+	FinalizeReload (2812ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (696ms)
+		SetupLoadedEditorAssemblies (2731ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (464ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (2486ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,8 +133,8 @@ Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly 
 Reference validation can be disabled in the Plugin Inspector.
 Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.144 seconds
-Refreshing native plugins compatible for Editor in 26.63 ms, found 10 plugins.
+- Loaded All Assemblies, in  1.374 seconds
+Refreshing native plugins compatible for Editor in 31.72 ms, found 10 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -142,521 +151,1020 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.528 seconds
-Domain Reload Profiling: 2666ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  1.521 seconds
+Domain Reload Profiling: 2887ms
+	BeginReloadAssembly (201ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (816ms)
-		LoadAssemblies (525ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (407ms)
-			TypeCache.Refresh (343ms)
-				TypeCache.ScanAssembly (315ms)
-			ScanForSourceGeneratedMonoScriptInfo (46ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1528ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1241ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (868ms)
-			ProcessInitializeOnLoadMethodAttributes (175ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 28.00 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6653 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 123 unused Assets / (1.2 MB). Loaded Objects now: 7113.
-Memory consumption went from 215.7 MB to 214.5 MB.
-Total: 6.809200 ms (FindLiveObjects: 0.703600 ms CreateObjectMapping: 0.218900 ms MarkObjects: 5.066300 ms  DeleteObjects: 0.818900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 46584.301240 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0ce2e042fc0af634d81183a8839a1db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0ce2e042fc0af634d81183a8839a1db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce171c020abc1277f3de7122889f40e3') in 0.004283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.307998 seconds.
-  path: Assets/Scenes/FrameWorkDemo.unity
-  artifactKey: Guid(f3a5ede5586cd9d4dbea54f1d9f6d5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FrameWorkDemo.unity using Guid(f3a5ede5586cd9d4dbea54f1d9f6d5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4846fb3b9d21f33dddffd56bfb69dcb') in 0.000583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 106.286082 seconds.
-  path: Assets/ARF-Samples/Scenes/PointClouds/AllPointCloudPointsPrefab.prefab
-  artifactKey: Guid(b8874a20398024ddf9f6c78026e9d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Scenes/PointClouds/AllPointCloudPointsPrefab.prefab using Guid(b8874a20398024ddf9f6c78026e9d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9394089c24b186320c2a41c2fb6e795e') in 0.143180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/ARF-Samples/Prefabs/AR Point Cloud Visualizer.prefab
-  artifactKey: Guid(7f988301d22a4406da0408106c75d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/AR Point Cloud Visualizer.prefab using Guid(7f988301d22a4406da0408106c75d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7f2e35f9f4a257e309f4d000f61bf9') in 0.055814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 307.579652 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(3bfbf0edc9bad9f41a3216c1caa733e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(3bfbf0edc9bad9f41a3216c1caa733e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19603b0614faca57d4506b52b4e6f44a') in 0.000769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.949713 seconds.
-  path: Assets/Prefabs/AR Session Origin.prefab
-  artifactKey: Guid(11461a50459b1c84bb8e1800476299a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AR Session Origin.prefab using Guid(11461a50459b1c84bb8e1800476299a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cc4666367152a738871ea07239ff28') in 0.007662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.006145 seconds.
-  path: Assets/Prefabs/Particle System.prefab
-  artifactKey: Guid(ffda8bfbca552474d82ec1c9fdaea9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Particle System.prefab using Guid(ffda8bfbca552474d82ec1c9fdaea9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a11c314c84b9fd2ce0e8fe4ba86a857') in 0.115599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 71.072437 seconds.
-  path: Assets/Textures/back_button.png
-  artifactKey: Guid(d1653dacd2aa84c76880f318174a77c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/back_button.png using Guid(d1653dacd2aa84c76880f318174a77c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3519dbddef01dfe3f03fa6a0cda5adc9') in 0.045851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ARFoundationDemos/UX/Textures/icon_none.png
-  artifactKey: Guid(29fc805acb69f4d7b84b4b57f58676b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationDemos/UX/Textures/icon_none.png using Guid(29fc805acb69f4d7b84b4b57f58676b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8fa7a922a02d28e36511f4c92c4ad') in 0.030119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ARFoundationDemos/UX/Textures/icon_motion.png
-  artifactKey: Guid(cb790425a497447e7aec4b22fd5db148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationDemos/UX/Textures/icon_motion.png using Guid(cb790425a497447e7aec4b22fd5db148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0640506a49471a921d8fe9852906b4') in 0.030290 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/ARFoundationDemos/UX/Textures/icon_light.png
-  artifactKey: Guid(31cdbd93de4774cb9a1a2ca00f34eb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationDemos/UX/Textures/icon_light.png using Guid(31cdbd93de4774cb9a1a2ca00f34eb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d86d964d529b8398b96716a1f5de05b') in 0.027347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ARFoundationDemos/UX/Textures/icon_features.png
-  artifactKey: Guid(5b235561398da4dc6a7f9fea67bb700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationDemos/UX/Textures/icon_features.png using Guid(5b235561398da4dc6a7f9fea67bb700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fb44454393abbb9f011515415abd08') in 0.027335 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ARFoundationDemos/UX/Textures/nottracking_panel.png
-  artifactKey: Guid(3219b59baecf44928b98577e2b950698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationDemos/UX/Textures/nottracking_panel.png using Guid(3219b59baecf44928b98577e2b950698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4367417da40aad35544209aa6158bc7f') in 0.022773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.386825 seconds.
-  path: Assets/OIP.jpg
-  artifactKey: Guid(aeb422f51f7c1bd4a8ab1394ea91c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OIP.jpg using Guid(aeb422f51f7c1bd4a8ab1394ea91c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7216a3d0f0ad27772bfa8dcbd5b709') in 0.030953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
-Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.953 seconds
-Refreshing native plugins compatible for Editor in 27.37 ms, found 10 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.451 seconds
-Domain Reload Profiling: 3394ms
-	BeginReloadAssembly (245ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (565ms)
-		LoadAssemblies (608ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (74ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (5ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2451ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1126ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (186ms)
-			ProcessInitializeOnLoadAttributes (778ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 35.27 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6479 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (1.2 MB). Loaded Objects now: 7135.
-Memory consumption went from 204.8 MB to 203.6 MB.
-Total: 8.023100 ms (FindLiveObjects: 0.631700 ms CreateObjectMapping: 0.263200 ms MarkObjects: 6.291100 ms  DeleteObjects: 0.835600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 771.177286 seconds.
-  path: Assets/Scripts/PlaceObjectMode.cs
-  artifactKey: Guid(cd958d4a9b1ec304aa891e7093f3ec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlaceObjectMode.cs using Guid(cd958d4a9b1ec304aa891e7093f3ec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860fa6ef0e81d033404f9a484466f866') in 0.002229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
-Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.799 seconds
-Refreshing native plugins compatible for Editor in 25.53 ms, found 10 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.938 seconds
-Domain Reload Profiling: 2730ms
-	BeginReloadAssembly (218ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (44ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (472ms)
-		LoadAssemblies (500ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1024ms)
+		LoadAssemblies (693ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (5ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1939ms)
+		AnalyzeDomain (448ms)
+			TypeCache.Refresh (370ms)
+				TypeCache.ScanAssembly (341ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1522ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (949ms)
+		SetupLoadedEditorAssemblies (1224ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (680ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 24.44 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6479 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 95 unused Assets / (1.2 MB). Loaded Objects now: 7139.
-Memory consumption went from 204.8 MB to 203.6 MB.
-Total: 6.549900 ms (FindLiveObjects: 0.666700 ms CreateObjectMapping: 0.229200 ms MarkObjects: 4.830500 ms  DeleteObjects: 0.822400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
-Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.783 seconds
-Refreshing native plugins compatible for Editor in 26.56 ms, found 10 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.869 seconds
-Domain Reload Profiling: 2646ms
-	BeginReloadAssembly (217ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (483ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (5ms)
-			ScanForSourceGeneratedMonoScriptInfo (42ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1870ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (940ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
+			InitializePlatformSupportModulesInManaged (66ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (682ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (895ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 36.61 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6662 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 125 unused Assets / (78.7 MB). Loaded Objects now: 7121.
+Memory consumption went from 216.1 MB to 137.4 MB.
+Total: 14.006300 ms (FindLiveObjects: 0.717500 ms CreateObjectMapping: 0.330300 ms MarkObjects: 12.110200 ms  DeleteObjects: 0.846600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: afed29878993551b43de2310e09cd0f9 -> 7da9a3439a3fd8ad9e0c1d6c3a15a4f5
+  custom:scripting/monoscript/fileName/EditPictureMode.cs:  -> 1ee1558568faa9c2d2ba74ce8d823d19
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
+Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.890 seconds
+Refreshing native plugins compatible for Editor in 33.30 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.002 seconds
+Domain Reload Profiling: 2882ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (577ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (74ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2003ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (986ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (700ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 26.56 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 29.61 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6480 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 95 unused Assets / (1.1 MB). Loaded Objects now: 7143.
-Memory consumption went from 205.0 MB to 203.9 MB.
-Total: 6.302800 ms (FindLiveObjects: 0.650000 ms CreateObjectMapping: 0.195700 ms MarkObjects: 4.655400 ms  DeleteObjects: 0.800300 ms)
+Unloading 6490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (1.3 MB). Loaded Objects now: 7125.
+Memory consumption went from 205.4 MB to 204.2 MB.
+Total: 6.607400 ms (FindLiveObjects: 0.678600 ms CreateObjectMapping: 0.207300 ms MarkObjects: 4.870300 ms  DeleteObjects: 0.850000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CollaborativeSession.cs: 26c0207062ff4876a6b4e071b1adac00 -> a87ae89999dda81c5e7e69a0e28ec313
+  custom:scripting/monoscript/fileName/KeyUIHandler.cs: 4cb50334a2c0318c0b97ab81cac9a6ad -> 1fc8176d5c05d0090896bd89a62d75d9
+  custom:scripting/monoscript/fileName/SerializableDictionaryBase.cs: 144fa35230e087fae1bb4f818246c9a6 -> 08fa6ab3149c16ea32cce8e943916692
+  custom:scripting/monoscript/fileName/FacingDirectionManager.cs: 6857b242eebd06436539ac7ef7f234e0 -> dab072da1e55f6adf7c786953a2602c3
+  custom:scripting/monoscript/fileName/IDAttribute.cs: d257acf3686ebd07d67eb3fca9623621 -> 0fb0886cc9accb304740670ce362a5a1
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GazeInputManager.cs: b4ed676483031999e9b07e452885162b -> f8918746413702ec0e804c75ce0d1354
+  custom:scripting/monoscript/fileName/FeaturesReporting.cs: 4fb518f09b43a7264546862fbeaf5b05 -> 67e3e289b5008bbe8ff7250d3a17a761
+  custom:scripting/monoscript/fileName/ProjectileLauncher.cs: 2df87b7a82bb2b27228918f2df5f8bbd -> bf4a37cb327d1524267231305fce356b
+  custom:scripting/monoscript/fileName/FramedPhoto.cs: 04b7d6583cd40f8a1022cff9875cdd78 -> 1d1c0d3eff0bb598e1442ec4ad536d00
+  custom:scripting/monoscript/fileName/ApplyFog.cs: 1e9f3a097d4a55d09ebfa7dae829ab5c -> 9eab7a889a6cc2df6b43540e9021e2b2
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ToggleMeshClassification.cs: 93a3645fd2dc6fc1605d15972dd0257f -> 543b0bbdc74926e21149c5ff29419a0b
+  custom:scripting/monoscript/fileName/BackgroundRenderOrderController.cs: 05f0773edb27d75fe9e3c4dccf74d44a -> 79aa857491081a128417d6cdf027347d
+  custom:scripting/monoscript/fileName/ARKitCoachingOverlay.cs: 9eb16397220ab6a940f51858647f5254 -> 3af8705403f3a5c37ced2260f653c18a
+  custom:scripting/monoscript/fileName/UIController.cs: 6f0495cb9a36626320f5382c4af7b4fa -> bfaccb01aeac03fc53d0be1ea9a95d36
+  custom:scripting/monoscript/fileName/ClassificationPlacementManager.cs: bb7149475bcc42e69404abb02bc8fe73 -> 46e3b3e6e5777a5caa5ff211129f667d
+  custom:scripting/monoscript/fileName/CenterScreenHelper.cs: 3e6deb5d99d2897bf130ecda72e11a00 -> cfc405b07f0b5666180ec22379df8d43
+  custom:scripting/monoscript/fileName/MeshClassificationFracking.cs: dd02edc2d6599d835e8aa217948c088c -> 5f9e4c5e7fe1089ce61b43c74399eeb4
+  custom:scripting/monoscript/fileName/DistanceManager.cs: b937d75433ee69beb10bbe25d882dd1b -> 84fac8f50b1446010baa4cc7b3314587
+  custom:scripting/monoscript/fileName/ARCoreSessionRecorder.cs: e4b68a0dd8ed37437f7bb9660fcd4274 -> 4a5a3f3e385f2e61829a755cac2bd4ba
+  custom:scripting/monoscript/fileName/NumberManager.cs: 882684aee4314c90ba5719940150def6 -> 0ddb10b924c381e0f9c122ab02da6829
+  custom:scripting/monoscript/fileName/TrackedImageInfoManager.cs: 69660f035110213671a3f428324d0b6e -> 410036c1d4302479b7d580d54a415a0f
+  custom:scripting/monoscript/fileName/CurrentRenderModeText.cs: 4a424173a021143743e80aee59b76638 -> 1dcf859a642bf7118420cc2bd26b1551
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/FadePlaneOnBoundaryChange.cs: fee96108123a7a6666c9204845efaa40 -> ee9e9376c4f662fe047c0367777d5c85
+  custom:scripting/monoscript/fileName/AnimatedPrompt.cs: 88fa3b30d9f9f44d2b9ec4c6fa7b173e -> 6c90f5c2402c1af00c0ef72b991b8742
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs: 106605039773193a327bc7da8e955dec -> 92f4c9cc3e4e19c6ba10bad799c23618
+  custom:scripting/monoscript/fileName/CameraWhiteBalanceController.cs: ee06d96e838cb9d8b964df1a8e57196b -> 424fad1ccebffd436a6800511457ef08
+  custom:scripting/monoscript/fileName/UIManager.cs: 380c2fc589e98db8ec1c14d95ec83730 -> 3b1358b43837f0592ce924cdcaa92288
+  custom:scripting/monoscript/fileName/DynamicPrefab.cs: f5a725ac035539cec3f1bf1bab5b65f0 -> 226d5ed2315d1d9c777089612b2920eb
+  custom:scripting/monoscript/fileName/MainMode.cs: a6b031e1419bde8c0b096ed190a1dd8a -> e26ff5dddb1e5d343b8a46a6baa6d9f5
+  custom:scripting/monoscript/fileName/PlacementReticle.cs: 61c8af169aab75e1a1e0588f3260b9ec -> d41a19b3e835df798138dda0599b3123
+  custom:scripting/monoscript/fileName/ThermalStateHandling.cs: 08003113976cd186ad508ad4b30650c4 -> 08cdac560d00a2c26867a33c4f774aca
+  custom:scripting/monoscript/fileName/CameraGrainMultiMaterial.cs: 696598ff5e6c206af8f648003fdccdc1 -> 3517bd2cd709f50dbc41ee8df1d78651
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ThermalStateForIOS.cs: c76963d4f57a026f8b2aa6169ff3479a -> 1b280d6869aa360c73794c18258dac89
+  custom:scripting/monoscript/fileName/ImageButtons.cs: 2556f1426515a4ad40116f92c98e7762 -> 35779c9a2490b9e0e656840d4dd6d03b
+  custom:scripting/monoscript/fileName/Colorizer.cs: 32345789a6b3402d8b5982dc190337b9 -> 2a659cf7d0a72141e0e7e0d028f201ef
+  custom:scripting/monoscript/fileName/DrawKeyAsPropertyAttribute.cs: 73e708663e372eb714f723484e04f609 -> 6706e70086e5bb5880f76c16dc290207
+  custom:scripting/monoscript/fileName/InteractionController.cs: c2f44ef39645390e1e94318074af3c79 -> 71ca067bf477a5eba11fc32061b55421
+  custom:scripting/monoscript/fileName/CameraGrainURP.cs: f72bfa43fb54e1fd5d566e017120f919 -> 0e16de98920a9e8ecd8a86ae184def81
+  custom:scripting/monoscript/fileName/LightEstimation.cs: 497f20e54f7069073d7a844f6665ac76 -> 7bfcdd9b9247af081493f7f3f1d00c31
+  custom:scripting/monoscript/fileName/CameraGrain.cs: 5777d3b170068f5d80ddffd533150e7f -> e5788690e67ac8f21f0027c834c229ff
+  custom:scripting/monoscript/fileName/DisplayFaceInfo.cs: 03f0e24f453a6b912638473879da7a8d -> 0ea7cf92caa22b6042c3fb8a74f26201
+  custom:scripting/monoscript/fileName/ExifDataLogger.cs: 861353c793d55cf9865bf64a4b4ce38e -> 0272d7dbbf33ad9f9b19a0f4cef96419
+  custom:scripting/monoscript/fileName/Singleton.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:scripting/monoscript/fileName/CameraFocusController.cs: df860afa1d4c2442a5ef485b479f19e8 -> 7bed544b328940df26dd6b8485b01fae
+  custom:scripting/monoscript/fileName/HighResolutionCpuImageSample.cs: 32d7cba053e0b40c720bff338d01c1c6 -> 7e38553c3b42b30048026e7d040687f2
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/BarycentricMeshData.cs: 326c5261ddbbfd267c1d860a833d5b00 -> 078bb537cbea7172fbb01bfee02677f8
+  custom:scripting/monoscript/fileName/ARUXAnimationManager.cs: a942b867a56a5eacc17eb28489c034b0 -> 084a3e8b60037ca297553bd010e919ee
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/DisplayCameraWhiteBalanceInformation.cs: 164816edbdbee1aeeeb9b546d561c3ab -> 560489bda602e997fb508506691046b6
+  custom:scripting/monoscript/fileName/DisplayTrackingState.cs: edc2b4039d217032e8a14a55d33ab741 -> 79a4aa424813cafc1fb1a9d4943b67d3
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/RequiredReferences.cs: 1e0082f19214607373c65a060d7b4936 -> 1ed1a8d13649f46f68b4f28e865e9472
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CameraExposureController.cs: 12109ca9f958010527774be399530ce3 -> acce5d4b07b4795d781e0400914af4ca
+  custom:scripting/monoscript/fileName/MeshClassificationManager.cs: d43327417365cb4e2a9023151a8821da -> 80807cf885df2c95372a3bcd9c51186f
+  custom:scripting/monoscript/fileName/ProbePlacement.cs: 9a0d8cb890bc73f2b6b67fc8fae8702d -> f05c2b17a0048dff0da0cea267fd9813
+  custom:scripting/monoscript/fileName/TranslateGeometry.cs: 0b641b884a3c7267bc5f3ab45488257f -> a4e5646823c7dc4305c6116f5fe8b494
+  custom:scripting/monoscript/fileName/BarycentricDataBuilder.cs: 2a44013506ffc5c1d506f7a1d982719d -> 7f3194a23918a70524d6de511d06e0bf
+  custom:scripting/monoscript/fileName/PrefabImagePairManager.cs: 699a98a4b01125c8fc3fd096e19aff0c -> 601f9a1dd3290ebb021e43f21934eaea
+  custom:scripting/monoscript/fileName/SelectImageMode.cs: ac66e6fe72b08370d616f345c5e0b5fa -> dc5fad779fff922888945bc64f96e5ba
+  custom:scripting/monoscript/fileName/PlaneClassificationLabeler.cs: 383d4fe8b75b227e05d9540143a9fd02 -> 1236dc34ad871ab7e722864dbb634f3a
+  custom:scripting/monoscript/fileName/PlaceObjectOnPlane.cs: bc86479320e21ddd7cca7cbea714df7d -> 41cc840604db07916331d907388589a8
+  custom:scripting/monoscript/fileName/DisplayCameraFocusInformation.cs: 10f3c33720a8f19219119c9535bae4c2 -> b2509aead6cafc3e38b256572a90df0a
+  custom:scripting/monoscript/fileName/DataBaseExample.cs: b52066af3b944a20f695524d52254b3c -> 58dde2cf8f5bdb61cd7d01ccdb8bd503
+  custom:scripting/monoscript/fileName/MyScript.cs: 3d35772f29263740a260d7364fe519a5 -> 9fa0687c25a7baccdb580cd0a52b4dd9
+  custom:scripting/monoscript/fileName/ShowTrackablesOnEnable.cs: aebe0b9fd74fd1458ef00a962d37d892 -> b37494a7f0fb0ae5ecb4ddbaefbd1876
+  custom:scripting/monoscript/fileName/StartupMode.cs: 95411e16957a74c22ed8e427f8c6fbdb -> dcecfe986bbd2ba586436ab04d33acbe
+  custom:scripting/monoscript/fileName/PlaceObjectsOnPlane.cs: ff7f91545d935f5bf6131a4ebe4f873e -> 9c7f7d3a1e102af7ca8886bb1fd83c03
+  custom:scripting/monoscript/fileName/AnchorInfoManager.cs: 2881aa3599617ab1baece380b540eb1e -> f7153f279102a090e4919b67b6adb5da
+  custom:scripting/monoscript/fileName/IncrementUIText.cs: 2a2b72dfe2871ca41865d156e86804de -> d9621f2099eb879ad697bbdc86a90017
+  custom:scripting/monoscript/fileName/ARAllPointCloudPointsParticleVisualizer.cs: c01b42106fb1bca697796c1ff151dcb0 -> 5f086462b2619c03949f2a0f8a2cdc88
+  custom:scripting/monoscript/fileName/AddPictureMode.cs: 7b4dd4c536b01690312274041999170e -> 1a7eb1955a338c109faa8de3595c4bd5
+  custom:scripting/monoscript/fileName/CollaborationNetworkingIndicator.cs: 98443f773a30fc4382bfdf10752b455a -> 9328d8ddb6e827289907e7cfbda7754b
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs: 50260ef915618b987707525a3d51e575 -> e3613b29e1214b68932a4b2f295fc763
+  custom:scripting/monoscript/fileName/ScanMode.cs: dacc4f8e8655bec46499a08a76e4fb75 -> d140ca9d16a3345a1e88803b0e59b9e7
+  custom:scripting/monoscript/fileName/PlaceObjectMode.cs: a204af13e3de7041653c5265d96a4b3e -> 41a25b7f223d2daa538ea9a1e1d72012
+  custom:scripting/monoscript/fileName/DisableTrackedVisuals.cs: efa4b7af6c661f523b9e80974020f3b7 -> b7c77f94e5a16eabf3c57713c36bbda9
+  custom:scripting/monoscript/fileName/DynamicLibrary.cs: 0710ca0a692d23937ffd43197456ccb5 -> e51d93bba897b27ca5377a7e417c9db4
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NestedDB.cs: de1d50315d08d45d487143cab48736b9 -> ee917c4779d672d93a5368cbc3426d47
+  custom:scripting/monoscript/fileName/ImageTrackingObjectManager.cs: e7d2b42e6566f32f4daf240604d5c9b4 -> 12cbeb9c8ba4c2ae3c2bff9e3334e1f8
+  custom:scripting/monoscript/fileName/NonARMode.cs: de6950b89491edaef78de5b41020d94b -> be484eabbfac0df93f49c39b6a0a0c83
+  custom:scripting/monoscript/fileName/CheckPlaneDetectionSupport.cs: bc472fa6e0b8400fac6610f116ce964c -> c171c42b8ee08bc375cc7e8015cedbd0
+  custom:scripting/monoscript/fileName/SwitchPointCloudVisualizationMode.cs: 3f2450608b696a5463771eeb35343014 -> ab687e53a74ace6eb122c416aff3fb85
+  custom:scripting/monoscript/fileName/LocalizationManager.cs: 0691b3e978be2985b3bfd3d502164eda -> 482321800aa09692ccfb3b35c5b4dfa5
+  custom:scripting/monoscript/fileName/ScreenLog.cs: f2416aaea2fbabc869c8b3828bf17b96 -> f55af9760f8c1dcb8f1fdfd782065eab
+  custom:scripting/monoscript/fileName/ARFeatheredPlaneMeshVisualizer.cs: e286ee1f4c9b56292c8697949108df82 -> 6b3665d918cccd30f14332921c3e1b99
+  custom:scripting/monoscript/fileName/DisplayCameraExposureInformation.cs: d9a0f8d775dbfd9b845cd3fb5ffcf869 -> 01615933fb92f5531bc1fb459d385340
+  custom:scripting/monoscript/fileName/ToggleCameraFacingDirectionOnAction.cs: a68f7b14e2af9f5f27c9a025975cf305 -> 6b8b06f16078a669dcfcb80c8a57853a
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARUXReasonsManager.cs: 1aec23ca3eecf4f221d182d1cade2f0d -> 4a66ca09959a01485f9f34cdb9637db0
+  custom:scripting/monoscript/fileName/Rotator.cs: e11f4807f27d49d2bcc34f49aa72e8be -> 42732ae2c5dd9f37929b97a3de265089
+  custom:scripting/monoscript/fileName/ImagesData.cs: 21b147810863f2ebb0fda4e0f5cb8e67 -> df6f9f56165caa93bf7217d270db034f
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 02a77908b46999585b2375a323fdb53e -> cd54b25c04b6227ae97010039a3d2a32
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs: 7a547518184ec61e7b2bed9d61213888 -> 1d97d9ea66ef2b1ed4f130bf619fd409
 ========================================================================
 Received Import Request.
-  Time since last request: 1438.931110 seconds.
-  path: Assets/ARFoundationDemos/AddressableAssetsData/AssetGroups/Schemas/1be7c3e87804947feb02531db73c364a_BundledAssetGroupSchema.asset
-  artifactKey: Guid(ae19561263aac4fa4beaff861f0acf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationDemos/AddressableAssetsData/AssetGroups/Schemas/1be7c3e87804947feb02531db73c364a_BundledAssetGroupSchema.asset using Guid(ae19561263aac4fa4beaff861f0acf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c53b90beee78d1186e1c1a3883d3686') in 0.015011 seconds
+  Time since last request: 663092.467535 seconds.
+  path: Assets/Scripts/EditPictureMode.cs
+  artifactKey: Guid(fec3b3363f085294ba2d32cb4c8edc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EditPictureMode.cs using Guid(fec3b3363f085294ba2d32cb4c8edc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e227f71ebf0c5a409e80a481b90de7f8') in 0.002705 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006703 seconds.
-  path: Assets/ARFoundationDemos/AddressableAssetsData/AssetGroups/Schemas/3675c9b69bc4c45a8afeb5f3bd831d05_BundledAssetGroupSchema.asset
-  artifactKey: Guid(371fafa1958864034b5c683ec84a33cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationDemos/AddressableAssetsData/AssetGroups/Schemas/3675c9b69bc4c45a8afeb5f3bd831d05_BundledAssetGroupSchema.asset using Guid(371fafa1958864034b5c683ec84a33cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4e0aba9b8ddb6ca9873d385a2b3bb8') in 0.001509 seconds
+  Time since last request: 64.322269 seconds.
+  path: Assets/Scripts/EditPictureMode.cs
+  artifactKey: Guid(fec3b3363f085294ba2d32cb4c8edc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EditPictureMode.cs using Guid(fec3b3363f085294ba2d32cb4c8edc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0558d9ce605d45bcb5ef5fd473b5452e') in 0.000727 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ARF-Samples/Prefabs/robot/ControlledRobot.prefab
-  artifactKey: Guid(d93d5415c51fa49aba66e61ec7b78b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/robot/ControlledRobot.prefab using Guid(d93d5415c51fa49aba66e61ec7b78b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a5ce3df5126317e27f4ef35f4c17fb') in 1.258370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 221
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
+Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.926 seconds
+Refreshing native plugins compatible for Editor in 33.24 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.114 seconds
+Domain Reload Profiling: 3030ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (588ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2114ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1046ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (747ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 30.95 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (1.3 MB). Loaded Objects now: 7129.
+Memory consumption went from 205.2 MB to 203.9 MB.
+Total: 8.238000 ms (FindLiveObjects: 0.659700 ms CreateObjectMapping: 0.228900 ms MarkObjects: 6.468900 ms  DeleteObjects: 0.878500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CollaborativeSession.cs: 26c0207062ff4876a6b4e071b1adac00 -> a87ae89999dda81c5e7e69a0e28ec313
+  custom:scripting/monoscript/fileName/KeyUIHandler.cs: 4cb50334a2c0318c0b97ab81cac9a6ad -> 1fc8176d5c05d0090896bd89a62d75d9
+  custom:scripting/monoscript/fileName/SerializableDictionaryBase.cs: 144fa35230e087fae1bb4f818246c9a6 -> 08fa6ab3149c16ea32cce8e943916692
+  custom:scripting/monoscript/fileName/FacingDirectionManager.cs: 6857b242eebd06436539ac7ef7f234e0 -> dab072da1e55f6adf7c786953a2602c3
+  custom:scripting/monoscript/fileName/IDAttribute.cs: d257acf3686ebd07d67eb3fca9623621 -> 0fb0886cc9accb304740670ce362a5a1
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GazeInputManager.cs: b4ed676483031999e9b07e452885162b -> f8918746413702ec0e804c75ce0d1354
+  custom:scripting/monoscript/fileName/FeaturesReporting.cs: 4fb518f09b43a7264546862fbeaf5b05 -> 67e3e289b5008bbe8ff7250d3a17a761
+  custom:scripting/monoscript/fileName/ProjectileLauncher.cs: 2df87b7a82bb2b27228918f2df5f8bbd -> bf4a37cb327d1524267231305fce356b
+  custom:scripting/monoscript/fileName/FramedPhoto.cs: 04b7d6583cd40f8a1022cff9875cdd78 -> 1d1c0d3eff0bb598e1442ec4ad536d00
+  custom:scripting/monoscript/fileName/ApplyFog.cs: 1e9f3a097d4a55d09ebfa7dae829ab5c -> 9eab7a889a6cc2df6b43540e9021e2b2
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ToggleMeshClassification.cs: 93a3645fd2dc6fc1605d15972dd0257f -> 543b0bbdc74926e21149c5ff29419a0b
+  custom:scripting/monoscript/fileName/BackgroundRenderOrderController.cs: 05f0773edb27d75fe9e3c4dccf74d44a -> 79aa857491081a128417d6cdf027347d
+  custom:scripting/monoscript/fileName/ARKitCoachingOverlay.cs: 9eb16397220ab6a940f51858647f5254 -> 3af8705403f3a5c37ced2260f653c18a
+  custom:scripting/monoscript/fileName/UIController.cs: 6f0495cb9a36626320f5382c4af7b4fa -> bfaccb01aeac03fc53d0be1ea9a95d36
+  custom:scripting/monoscript/fileName/ClassificationPlacementManager.cs: bb7149475bcc42e69404abb02bc8fe73 -> 46e3b3e6e5777a5caa5ff211129f667d
+  custom:scripting/monoscript/fileName/CenterScreenHelper.cs: 3e6deb5d99d2897bf130ecda72e11a00 -> cfc405b07f0b5666180ec22379df8d43
+  custom:scripting/monoscript/fileName/MeshClassificationFracking.cs: dd02edc2d6599d835e8aa217948c088c -> 5f9e4c5e7fe1089ce61b43c74399eeb4
+  custom:scripting/monoscript/fileName/DistanceManager.cs: b937d75433ee69beb10bbe25d882dd1b -> 84fac8f50b1446010baa4cc7b3314587
+  custom:scripting/monoscript/fileName/ARCoreSessionRecorder.cs: e4b68a0dd8ed37437f7bb9660fcd4274 -> 4a5a3f3e385f2e61829a755cac2bd4ba
+  custom:scripting/monoscript/fileName/NumberManager.cs: 882684aee4314c90ba5719940150def6 -> 0ddb10b924c381e0f9c122ab02da6829
+  custom:scripting/monoscript/fileName/TrackedImageInfoManager.cs: 69660f035110213671a3f428324d0b6e -> 410036c1d4302479b7d580d54a415a0f
+  custom:scripting/monoscript/fileName/CurrentRenderModeText.cs: 4a424173a021143743e80aee59b76638 -> 1dcf859a642bf7118420cc2bd26b1551
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/FadePlaneOnBoundaryChange.cs: fee96108123a7a6666c9204845efaa40 -> ee9e9376c4f662fe047c0367777d5c85
+  custom:scripting/monoscript/fileName/AnimatedPrompt.cs: 88fa3b30d9f9f44d2b9ec4c6fa7b173e -> 6c90f5c2402c1af00c0ef72b991b8742
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs: 106605039773193a327bc7da8e955dec -> 92f4c9cc3e4e19c6ba10bad799c23618
+  custom:scripting/monoscript/fileName/CameraWhiteBalanceController.cs: ee06d96e838cb9d8b964df1a8e57196b -> 424fad1ccebffd436a6800511457ef08
+  custom:scripting/monoscript/fileName/UIManager.cs: 380c2fc589e98db8ec1c14d95ec83730 -> 3b1358b43837f0592ce924cdcaa92288
+  custom:scripting/monoscript/fileName/DynamicPrefab.cs: f5a725ac035539cec3f1bf1bab5b65f0 -> 226d5ed2315d1d9c777089612b2920eb
+  custom:scripting/monoscript/fileName/MainMode.cs: a6b031e1419bde8c0b096ed190a1dd8a -> e26ff5dddb1e5d343b8a46a6baa6d9f5
+  custom:scripting/monoscript/fileName/PlacementReticle.cs: 61c8af169aab75e1a1e0588f3260b9ec -> d41a19b3e835df798138dda0599b3123
+  custom:scripting/monoscript/fileName/ThermalStateHandling.cs: 08003113976cd186ad508ad4b30650c4 -> 08cdac560d00a2c26867a33c4f774aca
+  custom:scripting/monoscript/fileName/CameraGrainMultiMaterial.cs: 696598ff5e6c206af8f648003fdccdc1 -> 3517bd2cd709f50dbc41ee8df1d78651
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ThermalStateForIOS.cs: c76963d4f57a026f8b2aa6169ff3479a -> 1b280d6869aa360c73794c18258dac89
+  custom:scripting/monoscript/fileName/ImageButtons.cs: 2556f1426515a4ad40116f92c98e7762 -> 35779c9a2490b9e0e656840d4dd6d03b
+  custom:scripting/monoscript/fileName/Colorizer.cs: 32345789a6b3402d8b5982dc190337b9 -> 2a659cf7d0a72141e0e7e0d028f201ef
+  custom:scripting/monoscript/fileName/DrawKeyAsPropertyAttribute.cs: 73e708663e372eb714f723484e04f609 -> 6706e70086e5bb5880f76c16dc290207
+  custom:scripting/monoscript/fileName/InteractionController.cs: c2f44ef39645390e1e94318074af3c79 -> 71ca067bf477a5eba11fc32061b55421
+  custom:scripting/monoscript/fileName/CameraGrainURP.cs: f72bfa43fb54e1fd5d566e017120f919 -> 0e16de98920a9e8ecd8a86ae184def81
+  custom:scripting/monoscript/fileName/LightEstimation.cs: 497f20e54f7069073d7a844f6665ac76 -> 7bfcdd9b9247af081493f7f3f1d00c31
+  custom:scripting/monoscript/fileName/CameraGrain.cs: 5777d3b170068f5d80ddffd533150e7f -> e5788690e67ac8f21f0027c834c229ff
+  custom:scripting/monoscript/fileName/DisplayFaceInfo.cs: 03f0e24f453a6b912638473879da7a8d -> 0ea7cf92caa22b6042c3fb8a74f26201
+  custom:scripting/monoscript/fileName/ExifDataLogger.cs: 861353c793d55cf9865bf64a4b4ce38e -> 0272d7dbbf33ad9f9b19a0f4cef96419
+  custom:scripting/monoscript/fileName/Singleton.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:scripting/monoscript/fileName/CameraFocusController.cs: df860afa1d4c2442a5ef485b479f19e8 -> 7bed544b328940df26dd6b8485b01fae
+  custom:scripting/monoscript/fileName/HighResolutionCpuImageSample.cs: 32d7cba053e0b40c720bff338d01c1c6 -> 7e38553c3b42b30048026e7d040687f2
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/BarycentricMeshData.cs: 326c5261ddbbfd267c1d860a833d5b00 -> 078bb537cbea7172fbb01bfee02677f8
+  custom:scripting/monoscript/fileName/ARUXAnimationManager.cs: a942b867a56a5eacc17eb28489c034b0 -> 084a3e8b60037ca297553bd010e919ee
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/DisplayCameraWhiteBalanceInformation.cs: 164816edbdbee1aeeeb9b546d561c3ab -> 560489bda602e997fb508506691046b6
+  custom:scripting/monoscript/fileName/DisplayTrackingState.cs: edc2b4039d217032e8a14a55d33ab741 -> 79a4aa424813cafc1fb1a9d4943b67d3
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/RequiredReferences.cs: 1e0082f19214607373c65a060d7b4936 -> 1ed1a8d13649f46f68b4f28e865e9472
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CameraExposureController.cs: 12109ca9f958010527774be399530ce3 -> acce5d4b07b4795d781e0400914af4ca
+  custom:scripting/monoscript/fileName/MeshClassificationManager.cs: d43327417365cb4e2a9023151a8821da -> 80807cf885df2c95372a3bcd9c51186f
+  custom:scripting/monoscript/fileName/ProbePlacement.cs: 9a0d8cb890bc73f2b6b67fc8fae8702d -> f05c2b17a0048dff0da0cea267fd9813
+  custom:scripting/monoscript/fileName/TranslateGeometry.cs: 0b641b884a3c7267bc5f3ab45488257f -> a4e5646823c7dc4305c6116f5fe8b494
+  custom:scripting/monoscript/fileName/BarycentricDataBuilder.cs: 2a44013506ffc5c1d506f7a1d982719d -> 7f3194a23918a70524d6de511d06e0bf
+  custom:scripting/monoscript/fileName/PrefabImagePairManager.cs: 699a98a4b01125c8fc3fd096e19aff0c -> 601f9a1dd3290ebb021e43f21934eaea
+  custom:scripting/monoscript/fileName/SelectImageMode.cs: ac66e6fe72b08370d616f345c5e0b5fa -> dc5fad779fff922888945bc64f96e5ba
+  custom:scripting/monoscript/fileName/PlaneClassificationLabeler.cs: 383d4fe8b75b227e05d9540143a9fd02 -> 1236dc34ad871ab7e722864dbb634f3a
+  custom:scripting/monoscript/fileName/PlaceObjectOnPlane.cs: bc86479320e21ddd7cca7cbea714df7d -> 41cc840604db07916331d907388589a8
+  custom:scripting/monoscript/fileName/DisplayCameraFocusInformation.cs: 10f3c33720a8f19219119c9535bae4c2 -> b2509aead6cafc3e38b256572a90df0a
+  custom:scripting/monoscript/fileName/DataBaseExample.cs: b52066af3b944a20f695524d52254b3c -> 58dde2cf8f5bdb61cd7d01ccdb8bd503
+  custom:scripting/monoscript/fileName/MyScript.cs: 3d35772f29263740a260d7364fe519a5 -> 9fa0687c25a7baccdb580cd0a52b4dd9
+  custom:scripting/monoscript/fileName/ShowTrackablesOnEnable.cs: aebe0b9fd74fd1458ef00a962d37d892 -> b37494a7f0fb0ae5ecb4ddbaefbd1876
+  custom:scripting/monoscript/fileName/StartupMode.cs: 95411e16957a74c22ed8e427f8c6fbdb -> dcecfe986bbd2ba586436ab04d33acbe
+  custom:scripting/monoscript/fileName/PlaceObjectsOnPlane.cs: ff7f91545d935f5bf6131a4ebe4f873e -> 9c7f7d3a1e102af7ca8886bb1fd83c03
+  custom:scripting/monoscript/fileName/AnchorInfoManager.cs: 2881aa3599617ab1baece380b540eb1e -> f7153f279102a090e4919b67b6adb5da
+  custom:scripting/monoscript/fileName/IncrementUIText.cs: 2a2b72dfe2871ca41865d156e86804de -> d9621f2099eb879ad697bbdc86a90017
+  custom:scripting/monoscript/fileName/ARAllPointCloudPointsParticleVisualizer.cs: c01b42106fb1bca697796c1ff151dcb0 -> 5f086462b2619c03949f2a0f8a2cdc88
+  custom:scripting/monoscript/fileName/AddPictureMode.cs: 7b4dd4c536b01690312274041999170e -> 1a7eb1955a338c109faa8de3595c4bd5
+  custom:scripting/monoscript/fileName/CollaborationNetworkingIndicator.cs: 98443f773a30fc4382bfdf10752b455a -> 9328d8ddb6e827289907e7cfbda7754b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs: 50260ef915618b987707525a3d51e575 -> e3613b29e1214b68932a4b2f295fc763
+  custom:scripting/monoscript/fileName/ScanMode.cs: dacc4f8e8655bec46499a08a76e4fb75 -> d140ca9d16a3345a1e88803b0e59b9e7
+  custom:scripting/monoscript/fileName/PlaceObjectMode.cs: a204af13e3de7041653c5265d96a4b3e -> 41a25b7f223d2daa538ea9a1e1d72012
+  custom:scripting/monoscript/fileName/DisableTrackedVisuals.cs: efa4b7af6c661f523b9e80974020f3b7 -> b7c77f94e5a16eabf3c57713c36bbda9
+  custom:scripting/monoscript/fileName/DynamicLibrary.cs: 0710ca0a692d23937ffd43197456ccb5 -> e51d93bba897b27ca5377a7e417c9db4
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NestedDB.cs: de1d50315d08d45d487143cab48736b9 -> ee917c4779d672d93a5368cbc3426d47
+  custom:scripting/monoscript/fileName/ImageTrackingObjectManager.cs: e7d2b42e6566f32f4daf240604d5c9b4 -> 12cbeb9c8ba4c2ae3c2bff9e3334e1f8
+  custom:scripting/monoscript/fileName/NonARMode.cs: de6950b89491edaef78de5b41020d94b -> be484eabbfac0df93f49c39b6a0a0c83
+  custom:scripting/monoscript/fileName/CheckPlaneDetectionSupport.cs: bc472fa6e0b8400fac6610f116ce964c -> c171c42b8ee08bc375cc7e8015cedbd0
+  custom:scripting/monoscript/fileName/SwitchPointCloudVisualizationMode.cs: 3f2450608b696a5463771eeb35343014 -> ab687e53a74ace6eb122c416aff3fb85
+  custom:scripting/monoscript/fileName/LocalizationManager.cs: 0691b3e978be2985b3bfd3d502164eda -> 482321800aa09692ccfb3b35c5b4dfa5
+  custom:scripting/monoscript/fileName/ScreenLog.cs: f2416aaea2fbabc869c8b3828bf17b96 -> f55af9760f8c1dcb8f1fdfd782065eab
+  custom:scripting/monoscript/fileName/ARFeatheredPlaneMeshVisualizer.cs: e286ee1f4c9b56292c8697949108df82 -> 6b3665d918cccd30f14332921c3e1b99
+  custom:scripting/monoscript/fileName/DisplayCameraExposureInformation.cs: d9a0f8d775dbfd9b845cd3fb5ffcf869 -> 01615933fb92f5531bc1fb459d385340
+  custom:scripting/monoscript/fileName/ToggleCameraFacingDirectionOnAction.cs: a68f7b14e2af9f5f27c9a025975cf305 -> 6b8b06f16078a669dcfcb80c8a57853a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARUXReasonsManager.cs: 1aec23ca3eecf4f221d182d1cade2f0d -> 4a66ca09959a01485f9f34cdb9637db0
+  custom:scripting/monoscript/fileName/Rotator.cs: e11f4807f27d49d2bcc34f49aa72e8be -> 42732ae2c5dd9f37929b97a3de265089
+  custom:scripting/monoscript/fileName/ImagesData.cs: 21b147810863f2ebb0fda4e0f5cb8e67 -> df6f9f56165caa93bf7217d270db034f
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 02a77908b46999585b2375a323fdb53e -> cd54b25c04b6227ae97010039a3d2a32
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs: 7a547518184ec61e7b2bed9d61213888 -> 1d97d9ea66ef2b1ed4f130bf619fd409
 ========================================================================
 Received Import Request.
-  Time since last request: 42.675670 seconds.
-  path: Assets/ARF-Samples/Scenes/ImageTracking/Prefabs/Cubes.prefab
-  artifactKey: Guid(9d914c3d0b1114964b654dbb800f73cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Scenes/ImageTracking/Prefabs/Cubes.prefab using Guid(9d914c3d0b1114964b654dbb800f73cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d2917db898f3943addf49659e10c07') in 0.020785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ARF-Samples/Scenes/Interaction/ManipulatorCube.prefab
-  artifactKey: Guid(11b048be3660a4f6aa9dcf9f6182f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Scenes/Interaction/ManipulatorCube.prefab using Guid(11b048be3660a4f6aa9dcf9f6182f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caba60a68edd4e45236faa8b471f147e') in 0.077763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 50.903217 seconds.
-  path: Assets/ARF-Samples/Prefabs/AR Feathered Plane.prefab
-  artifactKey: Guid(d16dd8da7e4ccbe42b1b4a344a72ecbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/AR Feathered Plane.prefab using Guid(d16dd8da7e4ccbe42b1b4a344a72ecbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d023c8c26228ceac21b12d137ca4c3b') in 0.004128 seconds
+  Time since last request: 128.829716 seconds.
+  path: Assets/ARF-Samples/Scenes/PointClouds/AllPointCloudPointsPrefab.prefab
+  artifactKey: Guid(b8874a20398024ddf9f6c78026e9d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-Samples/Scenes/PointClouds/AllPointCloudPointsPrefab.prefab using Guid(b8874a20398024ddf9f6c78026e9d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42be841a04355393ffb6cad320e866f1') in 0.101977 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.020272 seconds.
-  path: Assets/ARF-Samples/Scenes/PlaneDetection/AR Plane Classification Visualizer.prefab
-  artifactKey: Guid(55818d52702e343009fa8489d262df47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Scenes/PlaneDetection/AR Plane Classification Visualizer.prefab using Guid(55818d52702e343009fa8489d262df47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd39b009298e9e972de047393ec58f4') in 0.025320 seconds
+  Time since last request: 0.201273 seconds.
+  path: Assets/InputActions/ARF Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputActions/ARF Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2274fc1315278a39f219282c10107d') in 0.029763 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 74
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ARF-Samples/Prefabs/ARF XR Origin Set Up.prefab
-  artifactKey: Guid(8f2c1ffdafd49a943ac79dc0ff480220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/ARF XR Origin Set Up.prefab using Guid(8f2c1ffdafd49a943ac79dc0ff480220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55083730e18dfa4ed2521cd0d5e5edbc') in 0.246590 seconds
+  Time since last request: 191.194261 seconds.
+  path: Assets/Input/AR Input Actions.inputactions
+  artifactKey: Guid(700b55983bcae8f43811668f2c24ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Input/AR Input Actions.inputactions using Guid(700b55983bcae8f43811668f2c24ed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c79e035bd6ae01bf3e3f488dca7fc2') in 0.002008 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 379
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/ARF-Samples/Prefabs/UI/Console Panel.prefab
-  artifactKey: Guid(2b52c748324c2493186e700a60a76fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/UI/Console Panel.prefab using Guid(2b52c748324c2493186e700a60a76fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e7ddb3e22fa710a33e9f9243c39f37') in 0.186598 seconds
+  Time since last request: 7.157360 seconds.
+  path: Assets/Scripts/MainMode.cs
+  artifactKey: Guid(847b051598149804ebd4961989eef0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMode.cs using Guid(847b051598149804ebd4961989eef0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c68fba2c7e21ab5f3c7cf944731af5b') in 0.000665 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 205
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/ARF-Samples/Prefabs/FaceMeshPrefab.prefab
-  artifactKey: Guid(92e70fac81673432784c18cf08f10366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/FaceMeshPrefab.prefab using Guid(92e70fac81673432784c18cf08f10366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574b639c7d7c1b82ed187ed036dcc9bf') in 0.009507 seconds
+  Time since last request: 15.687829 seconds.
+  path: Assets/Scripts/AddPictureMode.cs
+  artifactKey: Guid(d83a8e618301b8a40895d417bc80af4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AddPictureMode.cs using Guid(d83a8e618301b8a40895d417bc80af4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f4b8c23a230cdd4dfff2bd57b21028') in 0.000616 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ARF-Samples/Prefabs/EnvironmentProbePrefab.prefab
-  artifactKey: Guid(5cfb9441b668a4dc1a2f114e6d072394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/EnvironmentProbePrefab.prefab using Guid(5cfb9441b668a4dc1a2f114e6d072394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749fbd33b0759ca28d753ae702bd807f') in 0.341158 seconds
+  Time since last request: 42.896990 seconds.
+  path: Assets/Scripts/MainMode1.cs
+  artifactKey: Guid(bbe751d8ccfa8034ab96f3bef7549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMode1.cs using Guid(bbe751d8ccfa8034ab96f3bef7549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a967f1b2bb4d23ce2a5c0c134a529cb9') in 0.000854 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.916290 seconds.
-  path: Assets/ARF-Samples/Prefabs/JointLineRenderer.prefab
-  artifactKey: Guid(a52b49b9ddc724c198fda9937a7fced0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/JointLineRenderer.prefab using Guid(a52b49b9ddc724c198fda9937a7fced0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bf6d872e9ace5d852d481f83f00bf0') in 0.016181 seconds
+  Time since last request: 9.496029 seconds.
+  path: Assets/Scripts/GalleryMainMode.cs
+  artifactKey: Guid(bbe751d8ccfa8034ab96f3bef7549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GalleryMainMode.cs using Guid(bbe751d8ccfa8034ab96f3bef7549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8309245cf0bb025d1da0ebd15e4c3ba') in 0.000861 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003766 seconds.
-  path: Assets/ARF-Samples/Prefabs/ReflectiveSphere.prefab
-  artifactKey: Guid(cc7ced85c210d4c2eb70bc117e21b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARF-Samples/Prefabs/ReflectiveSphere.prefab using Guid(cc7ced85c210d4c2eb70bc117e21b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f847ea5e36223201727ebadf8af77ebc') in 0.017582 seconds
+  Time since last request: 17.069042 seconds.
+  path: Assets/Scripts/GalleryMainMode.cs
+  artifactKey: Guid(bbe751d8ccfa8034ab96f3bef7549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GalleryMainMode.cs using Guid(bbe751d8ccfa8034ab96f3bef7549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac097abcf96a5da14f19977dec17207e') in 0.000723 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
+Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.928 seconds
+Refreshing native plugins compatible for Editor in 33.38 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.103 seconds
+Domain Reload Profiling: 3020ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (568ms)
+		LoadAssemblies (611ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2104ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1022ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (723ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 29.88 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (1.3 MB). Loaded Objects now: 7141.
+Memory consumption went from 205.4 MB to 204.1 MB.
+Total: 7.143800 ms (FindLiveObjects: 0.704400 ms CreateObjectMapping: 0.209800 ms MarkObjects: 5.318600 ms  DeleteObjects: 0.909300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CollaborativeSession.cs: 26c0207062ff4876a6b4e071b1adac00 -> a87ae89999dda81c5e7e69a0e28ec313
+  custom:scripting/monoscript/fileName/KeyUIHandler.cs: 4cb50334a2c0318c0b97ab81cac9a6ad -> 1fc8176d5c05d0090896bd89a62d75d9
+  custom:scripting/monoscript/fileName/SerializableDictionaryBase.cs: 144fa35230e087fae1bb4f818246c9a6 -> 08fa6ab3149c16ea32cce8e943916692
+  custom:scripting/monoscript/fileName/FacingDirectionManager.cs: 6857b242eebd06436539ac7ef7f234e0 -> dab072da1e55f6adf7c786953a2602c3
+  custom:scripting/monoscript/fileName/IDAttribute.cs: d257acf3686ebd07d67eb3fca9623621 -> 0fb0886cc9accb304740670ce362a5a1
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GazeInputManager.cs: b4ed676483031999e9b07e452885162b -> f8918746413702ec0e804c75ce0d1354
+  custom:scripting/monoscript/fileName/FeaturesReporting.cs: 4fb518f09b43a7264546862fbeaf5b05 -> 67e3e289b5008bbe8ff7250d3a17a761
+  custom:scripting/monoscript/fileName/ProjectileLauncher.cs: 2df87b7a82bb2b27228918f2df5f8bbd -> bf4a37cb327d1524267231305fce356b
+  custom:scripting/monoscript/fileName/FramedPhoto.cs: 04b7d6583cd40f8a1022cff9875cdd78 -> 1d1c0d3eff0bb598e1442ec4ad536d00
+  custom:scripting/monoscript/fileName/ApplyFog.cs: 1e9f3a097d4a55d09ebfa7dae829ab5c -> 9eab7a889a6cc2df6b43540e9021e2b2
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ToggleMeshClassification.cs: 93a3645fd2dc6fc1605d15972dd0257f -> 543b0bbdc74926e21149c5ff29419a0b
+  custom:scripting/monoscript/fileName/BackgroundRenderOrderController.cs: 05f0773edb27d75fe9e3c4dccf74d44a -> 79aa857491081a128417d6cdf027347d
+  custom:scripting/monoscript/fileName/ARKitCoachingOverlay.cs: 9eb16397220ab6a940f51858647f5254 -> 3af8705403f3a5c37ced2260f653c18a
+  custom:scripting/monoscript/fileName/UIController.cs: 6f0495cb9a36626320f5382c4af7b4fa -> bfaccb01aeac03fc53d0be1ea9a95d36
+  custom:scripting/monoscript/fileName/ClassificationPlacementManager.cs: bb7149475bcc42e69404abb02bc8fe73 -> 46e3b3e6e5777a5caa5ff211129f667d
+  custom:scripting/monoscript/fileName/CenterScreenHelper.cs: 3e6deb5d99d2897bf130ecda72e11a00 -> cfc405b07f0b5666180ec22379df8d43
+  custom:scripting/monoscript/fileName/MeshClassificationFracking.cs: dd02edc2d6599d835e8aa217948c088c -> 5f9e4c5e7fe1089ce61b43c74399eeb4
+  custom:scripting/monoscript/fileName/DistanceManager.cs: b937d75433ee69beb10bbe25d882dd1b -> 84fac8f50b1446010baa4cc7b3314587
+  custom:scripting/monoscript/fileName/ARCoreSessionRecorder.cs: e4b68a0dd8ed37437f7bb9660fcd4274 -> 4a5a3f3e385f2e61829a755cac2bd4ba
+  custom:scripting/monoscript/fileName/NumberManager.cs: 882684aee4314c90ba5719940150def6 -> 0ddb10b924c381e0f9c122ab02da6829
+  custom:scripting/monoscript/fileName/TrackedImageInfoManager.cs: 69660f035110213671a3f428324d0b6e -> 410036c1d4302479b7d580d54a415a0f
+  custom:scripting/monoscript/fileName/CurrentRenderModeText.cs: 4a424173a021143743e80aee59b76638 -> 1dcf859a642bf7118420cc2bd26b1551
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/FadePlaneOnBoundaryChange.cs: fee96108123a7a6666c9204845efaa40 -> ee9e9376c4f662fe047c0367777d5c85
+  custom:scripting/monoscript/fileName/AnimatedPrompt.cs: 88fa3b30d9f9f44d2b9ec4c6fa7b173e -> 6c90f5c2402c1af00c0ef72b991b8742
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs: 106605039773193a327bc7da8e955dec -> 92f4c9cc3e4e19c6ba10bad799c23618
+  custom:scripting/monoscript/fileName/CameraWhiteBalanceController.cs: ee06d96e838cb9d8b964df1a8e57196b -> 424fad1ccebffd436a6800511457ef08
+  custom:scripting/monoscript/fileName/UIManager.cs: 380c2fc589e98db8ec1c14d95ec83730 -> 3b1358b43837f0592ce924cdcaa92288
+  custom:scripting/monoscript/fileName/DynamicPrefab.cs: f5a725ac035539cec3f1bf1bab5b65f0 -> 226d5ed2315d1d9c777089612b2920eb
+  custom:scripting/monoscript/fileName/MainMode.cs: a6b031e1419bde8c0b096ed190a1dd8a -> e26ff5dddb1e5d343b8a46a6baa6d9f5
+  custom:scripting/monoscript/fileName/PlacementReticle.cs: 61c8af169aab75e1a1e0588f3260b9ec -> d41a19b3e835df798138dda0599b3123
+  custom:scripting/monoscript/fileName/ThermalStateHandling.cs: 08003113976cd186ad508ad4b30650c4 -> 08cdac560d00a2c26867a33c4f774aca
+  custom:scripting/monoscript/fileName/CameraGrainMultiMaterial.cs: 696598ff5e6c206af8f648003fdccdc1 -> 3517bd2cd709f50dbc41ee8df1d78651
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ThermalStateForIOS.cs: c76963d4f57a026f8b2aa6169ff3479a -> 1b280d6869aa360c73794c18258dac89
+  custom:scripting/monoscript/fileName/ImageButtons.cs: 2556f1426515a4ad40116f92c98e7762 -> 35779c9a2490b9e0e656840d4dd6d03b
+  custom:scripting/monoscript/fileName/Colorizer.cs: 32345789a6b3402d8b5982dc190337b9 -> 2a659cf7d0a72141e0e7e0d028f201ef
+  custom:scripting/monoscript/fileName/DrawKeyAsPropertyAttribute.cs: 73e708663e372eb714f723484e04f609 -> 6706e70086e5bb5880f76c16dc290207
+  custom:scripting/monoscript/fileName/InteractionController.cs: c2f44ef39645390e1e94318074af3c79 -> 71ca067bf477a5eba11fc32061b55421
+  custom:scripting/monoscript/fileName/CameraGrainURP.cs: f72bfa43fb54e1fd5d566e017120f919 -> 0e16de98920a9e8ecd8a86ae184def81
+  custom:scripting/monoscript/fileName/LightEstimation.cs: 497f20e54f7069073d7a844f6665ac76 -> 7bfcdd9b9247af081493f7f3f1d00c31
+  custom:scripting/monoscript/fileName/CameraGrain.cs: 5777d3b170068f5d80ddffd533150e7f -> e5788690e67ac8f21f0027c834c229ff
+  custom:scripting/monoscript/fileName/DisplayFaceInfo.cs: 03f0e24f453a6b912638473879da7a8d -> 0ea7cf92caa22b6042c3fb8a74f26201
+  custom:scripting/monoscript/fileName/ExifDataLogger.cs: 861353c793d55cf9865bf64a4b4ce38e -> 0272d7dbbf33ad9f9b19a0f4cef96419
+  custom:scripting/monoscript/fileName/Singleton.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:scripting/monoscript/fileName/CameraFocusController.cs: df860afa1d4c2442a5ef485b479f19e8 -> 7bed544b328940df26dd6b8485b01fae
+  custom:scripting/monoscript/fileName/HighResolutionCpuImageSample.cs: 32d7cba053e0b40c720bff338d01c1c6 -> 7e38553c3b42b30048026e7d040687f2
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/BarycentricMeshData.cs: 326c5261ddbbfd267c1d860a833d5b00 -> 078bb537cbea7172fbb01bfee02677f8
+  custom:scripting/monoscript/fileName/ARUXAnimationManager.cs: a942b867a56a5eacc17eb28489c034b0 -> 084a3e8b60037ca297553bd010e919ee
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/DisplayCameraWhiteBalanceInformation.cs: 164816edbdbee1aeeeb9b546d561c3ab -> 560489bda602e997fb508506691046b6
+  custom:scripting/monoscript/fileName/DisplayTrackingState.cs: edc2b4039d217032e8a14a55d33ab741 -> 79a4aa424813cafc1fb1a9d4943b67d3
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/RequiredReferences.cs: 1e0082f19214607373c65a060d7b4936 -> 1ed1a8d13649f46f68b4f28e865e9472
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CameraExposureController.cs: 12109ca9f958010527774be399530ce3 -> acce5d4b07b4795d781e0400914af4ca
+  custom:scripting/monoscript/fileName/MeshClassificationManager.cs: d43327417365cb4e2a9023151a8821da -> 80807cf885df2c95372a3bcd9c51186f
+  custom:scripting/monoscript/fileName/ProbePlacement.cs: 9a0d8cb890bc73f2b6b67fc8fae8702d -> f05c2b17a0048dff0da0cea267fd9813
+  custom:scripting/monoscript/fileName/TranslateGeometry.cs: 0b641b884a3c7267bc5f3ab45488257f -> a4e5646823c7dc4305c6116f5fe8b494
+  custom:scripting/monoscript/fileName/BarycentricDataBuilder.cs: 2a44013506ffc5c1d506f7a1d982719d -> 7f3194a23918a70524d6de511d06e0bf
+  custom:scripting/monoscript/fileName/PrefabImagePairManager.cs: 699a98a4b01125c8fc3fd096e19aff0c -> 601f9a1dd3290ebb021e43f21934eaea
+  custom:scripting/monoscript/fileName/SelectImageMode.cs: ac66e6fe72b08370d616f345c5e0b5fa -> dc5fad779fff922888945bc64f96e5ba
+  custom:scripting/monoscript/fileName/PlaneClassificationLabeler.cs: 383d4fe8b75b227e05d9540143a9fd02 -> 1236dc34ad871ab7e722864dbb634f3a
+  custom:scripting/monoscript/fileName/PlaceObjectOnPlane.cs: bc86479320e21ddd7cca7cbea714df7d -> 41cc840604db07916331d907388589a8
+  custom:scripting/monoscript/fileName/DisplayCameraFocusInformation.cs: 10f3c33720a8f19219119c9535bae4c2 -> b2509aead6cafc3e38b256572a90df0a
+  custom:scripting/monoscript/fileName/DataBaseExample.cs: b52066af3b944a20f695524d52254b3c -> 58dde2cf8f5bdb61cd7d01ccdb8bd503
+  custom:scripting/monoscript/fileName/MyScript.cs: 3d35772f29263740a260d7364fe519a5 -> 9fa0687c25a7baccdb580cd0a52b4dd9
+  custom:scripting/monoscript/fileName/ShowTrackablesOnEnable.cs: aebe0b9fd74fd1458ef00a962d37d892 -> b37494a7f0fb0ae5ecb4ddbaefbd1876
+  custom:scripting/monoscript/fileName/StartupMode.cs: 95411e16957a74c22ed8e427f8c6fbdb -> dcecfe986bbd2ba586436ab04d33acbe
+  custom:scripting/monoscript/fileName/PlaceObjectsOnPlane.cs: ff7f91545d935f5bf6131a4ebe4f873e -> 9c7f7d3a1e102af7ca8886bb1fd83c03
+  custom:scripting/monoscript/fileName/AnchorInfoManager.cs: 2881aa3599617ab1baece380b540eb1e -> f7153f279102a090e4919b67b6adb5da
+  custom:scripting/monoscript/fileName/IncrementUIText.cs: 2a2b72dfe2871ca41865d156e86804de -> d9621f2099eb879ad697bbdc86a90017
+  custom:scripting/monoscript/fileName/ARAllPointCloudPointsParticleVisualizer.cs: c01b42106fb1bca697796c1ff151dcb0 -> 5f086462b2619c03949f2a0f8a2cdc88
+  custom:scripting/monoscript/fileName/AddPictureMode.cs: 7b4dd4c536b01690312274041999170e -> 1a7eb1955a338c109faa8de3595c4bd5
+  custom:scripting/monoscript/fileName/CollaborationNetworkingIndicator.cs: 98443f773a30fc4382bfdf10752b455a -> 9328d8ddb6e827289907e7cfbda7754b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs: 50260ef915618b987707525a3d51e575 -> e3613b29e1214b68932a4b2f295fc763
+  custom:scripting/monoscript/fileName/ScanMode.cs: dacc4f8e8655bec46499a08a76e4fb75 -> d140ca9d16a3345a1e88803b0e59b9e7
+  custom:scripting/monoscript/fileName/PlaceObjectMode.cs: a204af13e3de7041653c5265d96a4b3e -> 41a25b7f223d2daa538ea9a1e1d72012
+  custom:scripting/monoscript/fileName/DisableTrackedVisuals.cs: efa4b7af6c661f523b9e80974020f3b7 -> b7c77f94e5a16eabf3c57713c36bbda9
+  custom:scripting/monoscript/fileName/DynamicLibrary.cs: 0710ca0a692d23937ffd43197456ccb5 -> e51d93bba897b27ca5377a7e417c9db4
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NestedDB.cs: de1d50315d08d45d487143cab48736b9 -> ee917c4779d672d93a5368cbc3426d47
+  custom:scripting/monoscript/fileName/ImageTrackingObjectManager.cs: e7d2b42e6566f32f4daf240604d5c9b4 -> 12cbeb9c8ba4c2ae3c2bff9e3334e1f8
+  custom:scripting/monoscript/fileName/NonARMode.cs: de6950b89491edaef78de5b41020d94b -> be484eabbfac0df93f49c39b6a0a0c83
+  custom:scripting/monoscript/fileName/CheckPlaneDetectionSupport.cs: bc472fa6e0b8400fac6610f116ce964c -> c171c42b8ee08bc375cc7e8015cedbd0
+  custom:scripting/monoscript/fileName/SwitchPointCloudVisualizationMode.cs: 3f2450608b696a5463771eeb35343014 -> ab687e53a74ace6eb122c416aff3fb85
+  custom:scripting/monoscript/fileName/LocalizationManager.cs: 0691b3e978be2985b3bfd3d502164eda -> 482321800aa09692ccfb3b35c5b4dfa5
+  custom:scripting/monoscript/fileName/ScreenLog.cs: f2416aaea2fbabc869c8b3828bf17b96 -> f55af9760f8c1dcb8f1fdfd782065eab
+  custom:scripting/monoscript/fileName/ARFeatheredPlaneMeshVisualizer.cs: e286ee1f4c9b56292c8697949108df82 -> 6b3665d918cccd30f14332921c3e1b99
+  custom:scripting/monoscript/fileName/DisplayCameraExposureInformation.cs: d9a0f8d775dbfd9b845cd3fb5ffcf869 -> 01615933fb92f5531bc1fb459d385340
+  custom:scripting/monoscript/fileName/ToggleCameraFacingDirectionOnAction.cs: a68f7b14e2af9f5f27c9a025975cf305 -> 6b8b06f16078a669dcfcb80c8a57853a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARUXReasonsManager.cs: 1aec23ca3eecf4f221d182d1cade2f0d -> 4a66ca09959a01485f9f34cdb9637db0
+  custom:scripting/monoscript/fileName/Rotator.cs: e11f4807f27d49d2bcc34f49aa72e8be -> 42732ae2c5dd9f37929b97a3de265089
+  custom:scripting/monoscript/fileName/ImagesData.cs: 21b147810863f2ebb0fda4e0f5cb8e67 -> df6f9f56165caa93bf7217d270db034f
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 02a77908b46999585b2375a323fdb53e -> cd54b25c04b6227ae97010039a3d2a32
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs: 7a547518184ec61e7b2bed9d61213888 -> 1d97d9ea66ef2b1ed4f130bf619fd409
+========================================================================
+Received Import Request.
+  Time since last request: 11.032884 seconds.
+  path: Assets/Scripts/GalleryMainMode.cs
+  artifactKey: Guid(bbe751d8ccfa8034ab96f3bef7549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GalleryMainMode.cs using Guid(bbe751d8ccfa8034ab96f3bef7549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34625cafa3209f080e77d1b0e8e99bb') in 0.002180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
+Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.911 seconds
+Refreshing native plugins compatible for Editor in 33.05 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.073 seconds
+Domain Reload Profiling: 2973ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (542ms)
+		LoadAssemblies (581ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2074ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1000ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (704ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 32.51 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (1.2 MB). Loaded Objects now: 7145.
+Memory consumption went from 205.3 MB to 204.1 MB.
+Total: 6.862100 ms (FindLiveObjects: 0.661000 ms CreateObjectMapping: 0.253000 ms MarkObjects: 5.090600 ms  DeleteObjects: 0.856000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CollaborativeSession.cs: 26c0207062ff4876a6b4e071b1adac00 -> a87ae89999dda81c5e7e69a0e28ec313
+  custom:scripting/monoscript/fileName/KeyUIHandler.cs: 4cb50334a2c0318c0b97ab81cac9a6ad -> 1fc8176d5c05d0090896bd89a62d75d9
+  custom:scripting/monoscript/fileName/SerializableDictionaryBase.cs: 144fa35230e087fae1bb4f818246c9a6 -> 08fa6ab3149c16ea32cce8e943916692
+  custom:scripting/monoscript/fileName/FacingDirectionManager.cs: 6857b242eebd06436539ac7ef7f234e0 -> dab072da1e55f6adf7c786953a2602c3
+  custom:scripting/monoscript/fileName/IDAttribute.cs: d257acf3686ebd07d67eb3fca9623621 -> 0fb0886cc9accb304740670ce362a5a1
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GazeInputManager.cs: b4ed676483031999e9b07e452885162b -> f8918746413702ec0e804c75ce0d1354
+  custom:scripting/monoscript/fileName/FeaturesReporting.cs: 4fb518f09b43a7264546862fbeaf5b05 -> 67e3e289b5008bbe8ff7250d3a17a761
+  custom:scripting/monoscript/fileName/ProjectileLauncher.cs: 2df87b7a82bb2b27228918f2df5f8bbd -> bf4a37cb327d1524267231305fce356b
+  custom:scripting/monoscript/fileName/FramedPhoto.cs: 04b7d6583cd40f8a1022cff9875cdd78 -> 1d1c0d3eff0bb598e1442ec4ad536d00
+  custom:scripting/monoscript/fileName/ApplyFog.cs: 1e9f3a097d4a55d09ebfa7dae829ab5c -> 9eab7a889a6cc2df6b43540e9021e2b2
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ToggleMeshClassification.cs: 93a3645fd2dc6fc1605d15972dd0257f -> 543b0bbdc74926e21149c5ff29419a0b
+  custom:scripting/monoscript/fileName/BackgroundRenderOrderController.cs: 05f0773edb27d75fe9e3c4dccf74d44a -> 79aa857491081a128417d6cdf027347d
+  custom:scripting/monoscript/fileName/ARKitCoachingOverlay.cs: 9eb16397220ab6a940f51858647f5254 -> 3af8705403f3a5c37ced2260f653c18a
+  custom:scripting/monoscript/fileName/UIController.cs: 6f0495cb9a36626320f5382c4af7b4fa -> bfaccb01aeac03fc53d0be1ea9a95d36
+  custom:scripting/monoscript/fileName/ClassificationPlacementManager.cs: bb7149475bcc42e69404abb02bc8fe73 -> 46e3b3e6e5777a5caa5ff211129f667d
+  custom:scripting/monoscript/fileName/CenterScreenHelper.cs: 3e6deb5d99d2897bf130ecda72e11a00 -> cfc405b07f0b5666180ec22379df8d43
+  custom:scripting/monoscript/fileName/MeshClassificationFracking.cs: dd02edc2d6599d835e8aa217948c088c -> 5f9e4c5e7fe1089ce61b43c74399eeb4
+  custom:scripting/monoscript/fileName/DistanceManager.cs: b937d75433ee69beb10bbe25d882dd1b -> 84fac8f50b1446010baa4cc7b3314587
+  custom:scripting/monoscript/fileName/ARCoreSessionRecorder.cs: e4b68a0dd8ed37437f7bb9660fcd4274 -> 4a5a3f3e385f2e61829a755cac2bd4ba
+  custom:scripting/monoscript/fileName/NumberManager.cs: 882684aee4314c90ba5719940150def6 -> 0ddb10b924c381e0f9c122ab02da6829
+  custom:scripting/monoscript/fileName/TrackedImageInfoManager.cs: 69660f035110213671a3f428324d0b6e -> 410036c1d4302479b7d580d54a415a0f
+  custom:scripting/monoscript/fileName/CurrentRenderModeText.cs: 4a424173a021143743e80aee59b76638 -> 1dcf859a642bf7118420cc2bd26b1551
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/FadePlaneOnBoundaryChange.cs: fee96108123a7a6666c9204845efaa40 -> ee9e9376c4f662fe047c0367777d5c85
+  custom:scripting/monoscript/fileName/AnimatedPrompt.cs: 88fa3b30d9f9f44d2b9ec4c6fa7b173e -> 6c90f5c2402c1af00c0ef72b991b8742
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs: 106605039773193a327bc7da8e955dec -> 92f4c9cc3e4e19c6ba10bad799c23618
+  custom:scripting/monoscript/fileName/CameraWhiteBalanceController.cs: ee06d96e838cb9d8b964df1a8e57196b -> 424fad1ccebffd436a6800511457ef08
+  custom:scripting/monoscript/fileName/UIManager.cs: 380c2fc589e98db8ec1c14d95ec83730 -> 3b1358b43837f0592ce924cdcaa92288
+  custom:scripting/monoscript/fileName/DynamicPrefab.cs: f5a725ac035539cec3f1bf1bab5b65f0 -> 226d5ed2315d1d9c777089612b2920eb
+  custom:scripting/monoscript/fileName/MainMode.cs: a6b031e1419bde8c0b096ed190a1dd8a -> e26ff5dddb1e5d343b8a46a6baa6d9f5
+  custom:scripting/monoscript/fileName/PlacementReticle.cs: 61c8af169aab75e1a1e0588f3260b9ec -> d41a19b3e835df798138dda0599b3123
+  custom:scripting/monoscript/fileName/ThermalStateHandling.cs: 08003113976cd186ad508ad4b30650c4 -> 08cdac560d00a2c26867a33c4f774aca
+  custom:scripting/monoscript/fileName/CameraGrainMultiMaterial.cs: 696598ff5e6c206af8f648003fdccdc1 -> 3517bd2cd709f50dbc41ee8df1d78651
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ThermalStateForIOS.cs: c76963d4f57a026f8b2aa6169ff3479a -> 1b280d6869aa360c73794c18258dac89
+  custom:scripting/monoscript/fileName/ImageButtons.cs: 2556f1426515a4ad40116f92c98e7762 -> 35779c9a2490b9e0e656840d4dd6d03b
+  custom:scripting/monoscript/fileName/Colorizer.cs: 32345789a6b3402d8b5982dc190337b9 -> 2a659cf7d0a72141e0e7e0d028f201ef
+  custom:scripting/monoscript/fileName/DrawKeyAsPropertyAttribute.cs: 73e708663e372eb714f723484e04f609 -> 6706e70086e5bb5880f76c16dc290207
+  custom:scripting/monoscript/fileName/InteractionController.cs: c2f44ef39645390e1e94318074af3c79 -> 71ca067bf477a5eba11fc32061b55421
+  custom:scripting/monoscript/fileName/CameraGrainURP.cs: f72bfa43fb54e1fd5d566e017120f919 -> 0e16de98920a9e8ecd8a86ae184def81
+  custom:scripting/monoscript/fileName/LightEstimation.cs: 497f20e54f7069073d7a844f6665ac76 -> 7bfcdd9b9247af081493f7f3f1d00c31
+  custom:scripting/monoscript/fileName/CameraGrain.cs: 5777d3b170068f5d80ddffd533150e7f -> e5788690e67ac8f21f0027c834c229ff
+  custom:scripting/monoscript/fileName/DisplayFaceInfo.cs: 03f0e24f453a6b912638473879da7a8d -> 0ea7cf92caa22b6042c3fb8a74f26201
+  custom:scripting/monoscript/fileName/ExifDataLogger.cs: 861353c793d55cf9865bf64a4b4ce38e -> 0272d7dbbf33ad9f9b19a0f4cef96419
+  custom:scripting/monoscript/fileName/Singleton.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:scripting/monoscript/fileName/CameraFocusController.cs: df860afa1d4c2442a5ef485b479f19e8 -> 7bed544b328940df26dd6b8485b01fae
+  custom:scripting/monoscript/fileName/HighResolutionCpuImageSample.cs: 32d7cba053e0b40c720bff338d01c1c6 -> 7e38553c3b42b30048026e7d040687f2
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/BarycentricMeshData.cs: 326c5261ddbbfd267c1d860a833d5b00 -> 078bb537cbea7172fbb01bfee02677f8
+  custom:scripting/monoscript/fileName/ARUXAnimationManager.cs: a942b867a56a5eacc17eb28489c034b0 -> 084a3e8b60037ca297553bd010e919ee
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/DisplayCameraWhiteBalanceInformation.cs: 164816edbdbee1aeeeb9b546d561c3ab -> 560489bda602e997fb508506691046b6
+  custom:scripting/monoscript/fileName/DisplayTrackingState.cs: edc2b4039d217032e8a14a55d33ab741 -> 79a4aa424813cafc1fb1a9d4943b67d3
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/RequiredReferences.cs: 1e0082f19214607373c65a060d7b4936 -> 1ed1a8d13649f46f68b4f28e865e9472
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CameraExposureController.cs: 12109ca9f958010527774be399530ce3 -> acce5d4b07b4795d781e0400914af4ca
+  custom:scripting/monoscript/fileName/MeshClassificationManager.cs: d43327417365cb4e2a9023151a8821da -> 80807cf885df2c95372a3bcd9c51186f
+  custom:scripting/monoscript/fileName/ProbePlacement.cs: 9a0d8cb890bc73f2b6b67fc8fae8702d -> f05c2b17a0048dff0da0cea267fd9813
+  custom:scripting/monoscript/fileName/TranslateGeometry.cs: 0b641b884a3c7267bc5f3ab45488257f -> a4e5646823c7dc4305c6116f5fe8b494
+  custom:scripting/monoscript/fileName/BarycentricDataBuilder.cs: 2a44013506ffc5c1d506f7a1d982719d -> 7f3194a23918a70524d6de511d06e0bf
+  custom:scripting/monoscript/fileName/PrefabImagePairManager.cs: 699a98a4b01125c8fc3fd096e19aff0c -> 601f9a1dd3290ebb021e43f21934eaea
+  custom:scripting/monoscript/fileName/SelectImageMode.cs: ac66e6fe72b08370d616f345c5e0b5fa -> dc5fad779fff922888945bc64f96e5ba
+  custom:scripting/monoscript/fileName/PlaneClassificationLabeler.cs: 383d4fe8b75b227e05d9540143a9fd02 -> 1236dc34ad871ab7e722864dbb634f3a
+  custom:scripting/monoscript/fileName/PlaceObjectOnPlane.cs: bc86479320e21ddd7cca7cbea714df7d -> 41cc840604db07916331d907388589a8
+  custom:scripting/monoscript/fileName/DisplayCameraFocusInformation.cs: 10f3c33720a8f19219119c9535bae4c2 -> b2509aead6cafc3e38b256572a90df0a
+  custom:scripting/monoscript/fileName/DataBaseExample.cs: b52066af3b944a20f695524d52254b3c -> 58dde2cf8f5bdb61cd7d01ccdb8bd503
+  custom:scripting/monoscript/fileName/MyScript.cs: 3d35772f29263740a260d7364fe519a5 -> 9fa0687c25a7baccdb580cd0a52b4dd9
+  custom:scripting/monoscript/fileName/ShowTrackablesOnEnable.cs: aebe0b9fd74fd1458ef00a962d37d892 -> b37494a7f0fb0ae5ecb4ddbaefbd1876
+  custom:scripting/monoscript/fileName/StartupMode.cs: 95411e16957a74c22ed8e427f8c6fbdb -> dcecfe986bbd2ba586436ab04d33acbe
+  custom:scripting/monoscript/fileName/PlaceObjectsOnPlane.cs: ff7f91545d935f5bf6131a4ebe4f873e -> 9c7f7d3a1e102af7ca8886bb1fd83c03
+  custom:scripting/monoscript/fileName/AnchorInfoManager.cs: 2881aa3599617ab1baece380b540eb1e -> f7153f279102a090e4919b67b6adb5da
+  custom:scripting/monoscript/fileName/IncrementUIText.cs: 2a2b72dfe2871ca41865d156e86804de -> d9621f2099eb879ad697bbdc86a90017
+  custom:scripting/monoscript/fileName/ARAllPointCloudPointsParticleVisualizer.cs: c01b42106fb1bca697796c1ff151dcb0 -> 5f086462b2619c03949f2a0f8a2cdc88
+  custom:scripting/monoscript/fileName/AddPictureMode.cs: 7b4dd4c536b01690312274041999170e -> 1a7eb1955a338c109faa8de3595c4bd5
+  custom:scripting/monoscript/fileName/CollaborationNetworkingIndicator.cs: 98443f773a30fc4382bfdf10752b455a -> 9328d8ddb6e827289907e7cfbda7754b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs: 50260ef915618b987707525a3d51e575 -> e3613b29e1214b68932a4b2f295fc763
+  custom:scripting/monoscript/fileName/ScanMode.cs: dacc4f8e8655bec46499a08a76e4fb75 -> d140ca9d16a3345a1e88803b0e59b9e7
+  custom:scripting/monoscript/fileName/PlaceObjectMode.cs: a204af13e3de7041653c5265d96a4b3e -> 41a25b7f223d2daa538ea9a1e1d72012
+  custom:scripting/monoscript/fileName/DisableTrackedVisuals.cs: efa4b7af6c661f523b9e80974020f3b7 -> b7c77f94e5a16eabf3c57713c36bbda9
+  custom:scripting/monoscript/fileName/DynamicLibrary.cs: 0710ca0a692d23937ffd43197456ccb5 -> e51d93bba897b27ca5377a7e417c9db4
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NestedDB.cs: de1d50315d08d45d487143cab48736b9 -> ee917c4779d672d93a5368cbc3426d47
+  custom:scripting/monoscript/fileName/ImageTrackingObjectManager.cs: e7d2b42e6566f32f4daf240604d5c9b4 -> 12cbeb9c8ba4c2ae3c2bff9e3334e1f8
+  custom:scripting/monoscript/fileName/NonARMode.cs: de6950b89491edaef78de5b41020d94b -> be484eabbfac0df93f49c39b6a0a0c83
+  custom:scripting/monoscript/fileName/CheckPlaneDetectionSupport.cs: bc472fa6e0b8400fac6610f116ce964c -> c171c42b8ee08bc375cc7e8015cedbd0
+  custom:scripting/monoscript/fileName/SwitchPointCloudVisualizationMode.cs: 3f2450608b696a5463771eeb35343014 -> ab687e53a74ace6eb122c416aff3fb85
+  custom:scripting/monoscript/fileName/LocalizationManager.cs: 0691b3e978be2985b3bfd3d502164eda -> 482321800aa09692ccfb3b35c5b4dfa5
+  custom:scripting/monoscript/fileName/ScreenLog.cs: f2416aaea2fbabc869c8b3828bf17b96 -> f55af9760f8c1dcb8f1fdfd782065eab
+  custom:scripting/monoscript/fileName/ARFeatheredPlaneMeshVisualizer.cs: e286ee1f4c9b56292c8697949108df82 -> 6b3665d918cccd30f14332921c3e1b99
+  custom:scripting/monoscript/fileName/DisplayCameraExposureInformation.cs: d9a0f8d775dbfd9b845cd3fb5ffcf869 -> 01615933fb92f5531bc1fb459d385340
+  custom:scripting/monoscript/fileName/ToggleCameraFacingDirectionOnAction.cs: a68f7b14e2af9f5f27c9a025975cf305 -> 6b8b06f16078a669dcfcb80c8a57853a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARUXReasonsManager.cs: 1aec23ca3eecf4f221d182d1cade2f0d -> 4a66ca09959a01485f9f34cdb9637db0
+  custom:scripting/monoscript/fileName/Rotator.cs: e11f4807f27d49d2bcc34f49aa72e8be -> 42732ae2c5dd9f37929b97a3de265089
+  custom:scripting/monoscript/fileName/ImagesData.cs: 21b147810863f2ebb0fda4e0f5cb8e67 -> df6f9f56165caa93bf7217d270db034f
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 02a77908b46999585b2375a323fdb53e -> cd54b25c04b6227ae97010039a3d2a32
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs: 7a547518184ec61e7b2bed9d61213888 -> 1d97d9ea66ef2b1ed4f130bf619fd409
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll
+Assembly 'Packages/com.google.ar.core.arfoundation.extensions/Editor/ExternalDependencyManager/Editor/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image C:\Users\domin\Documents\Westcliff\AVR 604\AVR-604\Assets\Plugins\Demigiant\DOTween\DOTween.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 34.97 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.000 seconds
+Domain Reload Profiling: 2838ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (540ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (975ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (691ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 30.71 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6491 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (1.2 MB). Loaded Objects now: 7149.
+Memory consumption went from 205.6 MB to 204.4 MB.
+Total: 6.691600 ms (FindLiveObjects: 0.631600 ms CreateObjectMapping: 0.200700 ms MarkObjects: 5.004400 ms  DeleteObjects: 0.853600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CollaborativeSession.cs: 26c0207062ff4876a6b4e071b1adac00 -> a87ae89999dda81c5e7e69a0e28ec313
+  custom:scripting/monoscript/fileName/KeyUIHandler.cs: 4cb50334a2c0318c0b97ab81cac9a6ad -> 1fc8176d5c05d0090896bd89a62d75d9
+  custom:scripting/monoscript/fileName/SerializableDictionaryBase.cs: 144fa35230e087fae1bb4f818246c9a6 -> 08fa6ab3149c16ea32cce8e943916692
+  custom:scripting/monoscript/fileName/FacingDirectionManager.cs: 6857b242eebd06436539ac7ef7f234e0 -> dab072da1e55f6adf7c786953a2602c3
+  custom:scripting/monoscript/fileName/IDAttribute.cs: d257acf3686ebd07d67eb3fca9623621 -> 0fb0886cc9accb304740670ce362a5a1
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GazeInputManager.cs: b4ed676483031999e9b07e452885162b -> f8918746413702ec0e804c75ce0d1354
+  custom:scripting/monoscript/fileName/FeaturesReporting.cs: 4fb518f09b43a7264546862fbeaf5b05 -> 67e3e289b5008bbe8ff7250d3a17a761
+  custom:scripting/monoscript/fileName/ProjectileLauncher.cs: 2df87b7a82bb2b27228918f2df5f8bbd -> bf4a37cb327d1524267231305fce356b
+  custom:scripting/monoscript/fileName/FramedPhoto.cs: 04b7d6583cd40f8a1022cff9875cdd78 -> 1d1c0d3eff0bb598e1442ec4ad536d00
+  custom:scripting/monoscript/fileName/ApplyFog.cs: 1e9f3a097d4a55d09ebfa7dae829ab5c -> 9eab7a889a6cc2df6b43540e9021e2b2
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ToggleMeshClassification.cs: 93a3645fd2dc6fc1605d15972dd0257f -> 543b0bbdc74926e21149c5ff29419a0b
+  custom:scripting/monoscript/fileName/BackgroundRenderOrderController.cs: 05f0773edb27d75fe9e3c4dccf74d44a -> 79aa857491081a128417d6cdf027347d
+  custom:scripting/monoscript/fileName/ARKitCoachingOverlay.cs: 9eb16397220ab6a940f51858647f5254 -> 3af8705403f3a5c37ced2260f653c18a
+  custom:scripting/monoscript/fileName/UIController.cs: 6f0495cb9a36626320f5382c4af7b4fa -> bfaccb01aeac03fc53d0be1ea9a95d36
+  custom:scripting/monoscript/fileName/ClassificationPlacementManager.cs: bb7149475bcc42e69404abb02bc8fe73 -> 46e3b3e6e5777a5caa5ff211129f667d
+  custom:scripting/monoscript/fileName/CenterScreenHelper.cs: 3e6deb5d99d2897bf130ecda72e11a00 -> cfc405b07f0b5666180ec22379df8d43
+  custom:scripting/monoscript/fileName/MeshClassificationFracking.cs: dd02edc2d6599d835e8aa217948c088c -> 5f9e4c5e7fe1089ce61b43c74399eeb4
+  custom:scripting/monoscript/fileName/DistanceManager.cs: b937d75433ee69beb10bbe25d882dd1b -> 84fac8f50b1446010baa4cc7b3314587
+  custom:scripting/monoscript/fileName/ARCoreSessionRecorder.cs: e4b68a0dd8ed37437f7bb9660fcd4274 -> 4a5a3f3e385f2e61829a755cac2bd4ba
+  custom:scripting/monoscript/fileName/NumberManager.cs: 882684aee4314c90ba5719940150def6 -> 0ddb10b924c381e0f9c122ab02da6829
+  custom:scripting/monoscript/fileName/TrackedImageInfoManager.cs: 69660f035110213671a3f428324d0b6e -> 410036c1d4302479b7d580d54a415a0f
+  custom:scripting/monoscript/fileName/CurrentRenderModeText.cs: 4a424173a021143743e80aee59b76638 -> 1dcf859a642bf7118420cc2bd26b1551
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/FadePlaneOnBoundaryChange.cs: fee96108123a7a6666c9204845efaa40 -> ee9e9376c4f662fe047c0367777d5c85
+  custom:scripting/monoscript/fileName/AnimatedPrompt.cs: 88fa3b30d9f9f44d2b9ec4c6fa7b173e -> 6c90f5c2402c1af00c0ef72b991b8742
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs: 106605039773193a327bc7da8e955dec -> 92f4c9cc3e4e19c6ba10bad799c23618
+  custom:scripting/monoscript/fileName/CameraWhiteBalanceController.cs: ee06d96e838cb9d8b964df1a8e57196b -> 424fad1ccebffd436a6800511457ef08
+  custom:scripting/monoscript/fileName/UIManager.cs: 380c2fc589e98db8ec1c14d95ec83730 -> 3b1358b43837f0592ce924cdcaa92288
+  custom:scripting/monoscript/fileName/DynamicPrefab.cs: f5a725ac035539cec3f1bf1bab5b65f0 -> 226d5ed2315d1d9c777089612b2920eb
+  custom:scripting/monoscript/fileName/MainMode.cs: a6b031e1419bde8c0b096ed190a1dd8a -> e26ff5dddb1e5d343b8a46a6baa6d9f5
+  custom:scripting/monoscript/fileName/PlacementReticle.cs: 61c8af169aab75e1a1e0588f3260b9ec -> d41a19b3e835df798138dda0599b3123
+  custom:scripting/monoscript/fileName/ThermalStateHandling.cs: 08003113976cd186ad508ad4b30650c4 -> 08cdac560d00a2c26867a33c4f774aca
+  custom:scripting/monoscript/fileName/CameraGrainMultiMaterial.cs: 696598ff5e6c206af8f648003fdccdc1 -> 3517bd2cd709f50dbc41ee8df1d78651
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ThermalStateForIOS.cs: c76963d4f57a026f8b2aa6169ff3479a -> 1b280d6869aa360c73794c18258dac89
+  custom:scripting/monoscript/fileName/ImageButtons.cs: 2556f1426515a4ad40116f92c98e7762 -> 35779c9a2490b9e0e656840d4dd6d03b
+  custom:scripting/monoscript/fileName/Colorizer.cs: 32345789a6b3402d8b5982dc190337b9 -> 2a659cf7d0a72141e0e7e0d028f201ef
+  custom:scripting/monoscript/fileName/DrawKeyAsPropertyAttribute.cs: 73e708663e372eb714f723484e04f609 -> 6706e70086e5bb5880f76c16dc290207
+  custom:scripting/monoscript/fileName/InteractionController.cs: c2f44ef39645390e1e94318074af3c79 -> 71ca067bf477a5eba11fc32061b55421
+  custom:scripting/monoscript/fileName/CameraGrainURP.cs: f72bfa43fb54e1fd5d566e017120f919 -> 0e16de98920a9e8ecd8a86ae184def81
+  custom:scripting/monoscript/fileName/LightEstimation.cs: 497f20e54f7069073d7a844f6665ac76 -> 7bfcdd9b9247af081493f7f3f1d00c31
+  custom:scripting/monoscript/fileName/CameraGrain.cs: 5777d3b170068f5d80ddffd533150e7f -> e5788690e67ac8f21f0027c834c229ff
+  custom:scripting/monoscript/fileName/DisplayFaceInfo.cs: 03f0e24f453a6b912638473879da7a8d -> 0ea7cf92caa22b6042c3fb8a74f26201
+  custom:scripting/monoscript/fileName/ExifDataLogger.cs: 861353c793d55cf9865bf64a4b4ce38e -> 0272d7dbbf33ad9f9b19a0f4cef96419
+  custom:scripting/monoscript/fileName/Singleton.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:scripting/monoscript/fileName/CameraFocusController.cs: df860afa1d4c2442a5ef485b479f19e8 -> 7bed544b328940df26dd6b8485b01fae
+  custom:scripting/monoscript/fileName/HighResolutionCpuImageSample.cs: 32d7cba053e0b40c720bff338d01c1c6 -> 7e38553c3b42b30048026e7d040687f2
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/BarycentricMeshData.cs: 326c5261ddbbfd267c1d860a833d5b00 -> 078bb537cbea7172fbb01bfee02677f8
+  custom:scripting/monoscript/fileName/ARUXAnimationManager.cs: a942b867a56a5eacc17eb28489c034b0 -> 084a3e8b60037ca297553bd010e919ee
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/DisplayCameraWhiteBalanceInformation.cs: 164816edbdbee1aeeeb9b546d561c3ab -> 560489bda602e997fb508506691046b6
+  custom:scripting/monoscript/fileName/DisplayTrackingState.cs: edc2b4039d217032e8a14a55d33ab741 -> 79a4aa424813cafc1fb1a9d4943b67d3
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/RequiredReferences.cs: 1e0082f19214607373c65a060d7b4936 -> 1ed1a8d13649f46f68b4f28e865e9472
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CameraExposureController.cs: 12109ca9f958010527774be399530ce3 -> acce5d4b07b4795d781e0400914af4ca
+  custom:scripting/monoscript/fileName/MeshClassificationManager.cs: d43327417365cb4e2a9023151a8821da -> 80807cf885df2c95372a3bcd9c51186f
+  custom:scripting/monoscript/fileName/ProbePlacement.cs: 9a0d8cb890bc73f2b6b67fc8fae8702d -> f05c2b17a0048dff0da0cea267fd9813
+  custom:scripting/monoscript/fileName/TranslateGeometry.cs: 0b641b884a3c7267bc5f3ab45488257f -> a4e5646823c7dc4305c6116f5fe8b494
+  custom:scripting/monoscript/fileName/BarycentricDataBuilder.cs: 2a44013506ffc5c1d506f7a1d982719d -> 7f3194a23918a70524d6de511d06e0bf
+  custom:scripting/monoscript/fileName/PrefabImagePairManager.cs: 699a98a4b01125c8fc3fd096e19aff0c -> 601f9a1dd3290ebb021e43f21934eaea
+  custom:scripting/monoscript/fileName/SelectImageMode.cs: ac66e6fe72b08370d616f345c5e0b5fa -> dc5fad779fff922888945bc64f96e5ba
+  custom:scripting/monoscript/fileName/PlaneClassificationLabeler.cs: 383d4fe8b75b227e05d9540143a9fd02 -> 1236dc34ad871ab7e722864dbb634f3a
+  custom:scripting/monoscript/fileName/PlaceObjectOnPlane.cs: bc86479320e21ddd7cca7cbea714df7d -> 41cc840604db07916331d907388589a8
+  custom:scripting/monoscript/fileName/DisplayCameraFocusInformation.cs: 10f3c33720a8f19219119c9535bae4c2 -> b2509aead6cafc3e38b256572a90df0a
+  custom:scripting/monoscript/fileName/DataBaseExample.cs: b52066af3b944a20f695524d52254b3c -> 58dde2cf8f5bdb61cd7d01ccdb8bd503
+  custom:scripting/monoscript/fileName/MyScript.cs: 3d35772f29263740a260d7364fe519a5 -> 9fa0687c25a7baccdb580cd0a52b4dd9
+  custom:scripting/monoscript/fileName/ShowTrackablesOnEnable.cs: aebe0b9fd74fd1458ef00a962d37d892 -> b37494a7f0fb0ae5ecb4ddbaefbd1876
+  custom:scripting/monoscript/fileName/StartupMode.cs: 95411e16957a74c22ed8e427f8c6fbdb -> dcecfe986bbd2ba586436ab04d33acbe
+  custom:scripting/monoscript/fileName/PlaceObjectsOnPlane.cs: ff7f91545d935f5bf6131a4ebe4f873e -> 9c7f7d3a1e102af7ca8886bb1fd83c03
+  custom:scripting/monoscript/fileName/AnchorInfoManager.cs: 2881aa3599617ab1baece380b540eb1e -> f7153f279102a090e4919b67b6adb5da
+  custom:scripting/monoscript/fileName/IncrementUIText.cs: 2a2b72dfe2871ca41865d156e86804de -> d9621f2099eb879ad697bbdc86a90017
+  custom:scripting/monoscript/fileName/ARAllPointCloudPointsParticleVisualizer.cs: c01b42106fb1bca697796c1ff151dcb0 -> 5f086462b2619c03949f2a0f8a2cdc88
+  custom:scripting/monoscript/fileName/AddPictureMode.cs: 7b4dd4c536b01690312274041999170e -> 1a7eb1955a338c109faa8de3595c4bd5
+  custom:scripting/monoscript/fileName/CollaborationNetworkingIndicator.cs: 98443f773a30fc4382bfdf10752b455a -> 9328d8ddb6e827289907e7cfbda7754b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs: 50260ef915618b987707525a3d51e575 -> e3613b29e1214b68932a4b2f295fc763
+  custom:scripting/monoscript/fileName/ScanMode.cs: dacc4f8e8655bec46499a08a76e4fb75 -> d140ca9d16a3345a1e88803b0e59b9e7
+  custom:scripting/monoscript/fileName/PlaceObjectMode.cs: a204af13e3de7041653c5265d96a4b3e -> 41a25b7f223d2daa538ea9a1e1d72012
+  custom:scripting/monoscript/fileName/DisableTrackedVisuals.cs: efa4b7af6c661f523b9e80974020f3b7 -> b7c77f94e5a16eabf3c57713c36bbda9
+  custom:scripting/monoscript/fileName/DynamicLibrary.cs: 0710ca0a692d23937ffd43197456ccb5 -> e51d93bba897b27ca5377a7e417c9db4
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NestedDB.cs: de1d50315d08d45d487143cab48736b9 -> ee917c4779d672d93a5368cbc3426d47
+  custom:scripting/monoscript/fileName/ImageTrackingObjectManager.cs: e7d2b42e6566f32f4daf240604d5c9b4 -> 12cbeb9c8ba4c2ae3c2bff9e3334e1f8
+  custom:scripting/monoscript/fileName/NonARMode.cs: de6950b89491edaef78de5b41020d94b -> be484eabbfac0df93f49c39b6a0a0c83
+  custom:scripting/monoscript/fileName/CheckPlaneDetectionSupport.cs: bc472fa6e0b8400fac6610f116ce964c -> c171c42b8ee08bc375cc7e8015cedbd0
+  custom:scripting/monoscript/fileName/SwitchPointCloudVisualizationMode.cs: 3f2450608b696a5463771eeb35343014 -> ab687e53a74ace6eb122c416aff3fb85
+  custom:scripting/monoscript/fileName/LocalizationManager.cs: 0691b3e978be2985b3bfd3d502164eda -> 482321800aa09692ccfb3b35c5b4dfa5
+  custom:scripting/monoscript/fileName/ScreenLog.cs: f2416aaea2fbabc869c8b3828bf17b96 -> f55af9760f8c1dcb8f1fdfd782065eab
+  custom:scripting/monoscript/fileName/ARFeatheredPlaneMeshVisualizer.cs: e286ee1f4c9b56292c8697949108df82 -> 6b3665d918cccd30f14332921c3e1b99
+  custom:scripting/monoscript/fileName/DisplayCameraExposureInformation.cs: d9a0f8d775dbfd9b845cd3fb5ffcf869 -> 01615933fb92f5531bc1fb459d385340
+  custom:scripting/monoscript/fileName/ToggleCameraFacingDirectionOnAction.cs: a68f7b14e2af9f5f27c9a025975cf305 -> 6b8b06f16078a669dcfcb80c8a57853a
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARUXReasonsManager.cs: 1aec23ca3eecf4f221d182d1cade2f0d -> 4a66ca09959a01485f9f34cdb9637db0
+  custom:scripting/monoscript/fileName/Rotator.cs: e11f4807f27d49d2bcc34f49aa72e8be -> 42732ae2c5dd9f37929b97a3de265089
+  custom:scripting/monoscript/fileName/ImagesData.cs: 21b147810863f2ebb0fda4e0f5cb8e67 -> df6f9f56165caa93bf7217d270db034f
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 02a77908b46999585b2375a323fdb53e -> cd54b25c04b6227ae97010039a3d2a32
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs: 7a547518184ec61e7b2bed9d61213888 -> 1d97d9ea66ef2b1ed4f130bf619fd409
+========================================================================
+Received Import Request.
+  Time since last request: 636.760636 seconds.
+  path: Assets/Prefabs/FramedPhoto.prefab
+  artifactKey: Guid(a95a6da9de62a4942b727df70e1769c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FramedPhoto.prefab using Guid(a95a6da9de62a4942b727df70e1769c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddd3e9ac25629b95a7428e60dc07c23') in 0.092515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 9.593231 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.001107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.558074 seconds.
+  path: Assets/Prefabs/FramedPhoto.prefab
+  artifactKey: Guid(a95a6da9de62a4942b727df70e1769c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FramedPhoto.prefab using Guid(a95a6da9de62a4942b727df70e1769c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d8324d586d895e76216bd8bde4a694') in 0.009809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 250.675982 seconds.
+  path: Assets/Prefabs/FramedPhoto.prefab
+  artifactKey: Guid(a95a6da9de62a4942b727df70e1769c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FramedPhoto.prefab using Guid(a95a6da9de62a4942b727df70e1769c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d6021a8443ac83090aaaf2abfaf82e') in 0.010995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19

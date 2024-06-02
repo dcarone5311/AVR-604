@@ -36,6 +36,7 @@ public class AddPictureMode : MonoBehaviour
             Quaternion rotation = Quaternion.LookRotation(normal, Vector3.up);
 
             GameObject spawned = Instantiate(placedPrefab, position, rotation);
+            spawned.transform.SetParent(transform.parent);
             FramedPhoto picture = spawned.GetComponent<FramedPhoto>();
             picture.SetImage(imageInfo);
             spawned.transform.localScale = new Vector3(defaultScale, defaultScale, 1.0f);
