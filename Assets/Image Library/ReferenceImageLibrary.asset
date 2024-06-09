@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 0
+  m_GuidHigh: 0
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4688474244331414572
+      m_GuidHigh: 5659550594666094266
+    m_SerializedTextureGuid:
+      m_GuidLow: 1131712935687047036
+      m_GuidHigh: 17987957479532244667
+    m_Size: {x: 0.08, y: 0.11452632}
+    m_SpecifySize: 1
+    m_Name: Earth-MarkerCard
+    m_Texture: {fileID: 2800000, guid: 3f57477ca6eb0fb4bbae59fa0510a2f9, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4930382543366956639
+      m_GuidHigh: 11487742984940594574
+    m_SerializedTextureGuid:
+      m_GuidLow: 12097963249590354778
+      m_GuidHigh: 10473946981151183449
+    m_Size: {x: 0.08, y: 0.11452632}
+    m_SpecifySize: 1
+    m_Name: Mars-MarkerCard
+    m_Texture: {fileID: 2800000, guid: 4d90435a997aa7e45992ca3749ef5a91, type: 3}

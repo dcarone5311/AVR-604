@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/FrameWorkDemo.unity
     guid: f3a5ede5586cd9d4dbea54f1d9f6d5da
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARGallery.unity
     guid: 01f4bc8c329e0174e84f79262c4405f4
+  - enabled: 1
+    path: Assets/Scenes/PlanetsScene.unity
+    guid: 311f81cbddac88546ae0007150ef2f8d
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8d44dadcbbc790943869e985b16a0657, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: cc2a7cdf174f3594680b0d3e983cb067, type: 2}

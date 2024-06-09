@@ -63,7 +63,9 @@
     <Compile Include="Assets\Scripts\StartupMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\CameraFocus\CameraFocusController.cs" />
     <Compile Include="Assets\Scripts\ShowTrackablesOnEnable.cs" />
+    <Compile Include="Assets\Scripts\PlanetsMainMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\FaceTracking\ToggleCameraFacingDirectionOnAction.cs" />
+    <Compile Include="Assets\Scripts\ImageScanMode.cs" />
     <Compile Include="Assets\ARFoundationDemos\Shaders\CameraGrain\Scripts\CameraGrainURP.cs" />
     <Compile Include="Assets\Scripts\AddPictureMode.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\PrefabImagePairManager.cs" />
@@ -76,6 +78,7 @@
     <Compile Include="Assets\ARF-Samples\Scenes\ARCore\ARCoreSessionRecorder.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ThermalState\Scripts\ThermalStateForIOS.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Planet.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\Colorizer.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\ARFoundationDemos\Shaders\Wireframe\Scripts\BarycentricDataBuilder.cs" />
@@ -90,8 +93,8 @@
     <Compile Include="Assets\ARFoundationDemos\UX\Scripts\ARUXAnimationManager.cs" />
     <Compile Include="Assets\ARFoundationDemos\Common\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\ARKit\ARCollaborationData\DisplayTrackingState.cs" />
-    <Compile Include="Assets\ARFoundationDemos\Common\Scripts\LightEstimation.cs" />
     <Compile Include="Assets\Scripts\ResizePicture.cs" />
+    <Compile Include="Assets\ARFoundationDemos\Common\Scripts\LightEstimation.cs" />
     <Compile Include="Assets\ARF-Samples\Scenes\Camera\LightEstimation\Rotator.cs" />
     <Compile Include="Assets\ImageTracking\Scripts\NumberManager.cs" />
     <Compile Include="Assets\Scripts\MyScript.cs" />
